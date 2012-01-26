@@ -1,0 +1,278 @@
+body {
+background-color: #D7DFE2;
+font: 10px  verdana, arial, helvetica;
+color: #416271;
+margin:0;
+}
+
+h1{
+padding:5px 0 5px 0;
+margin:0px;
+font-size:18px;
+color:#FFFFFF;
+}
+
+h2{
+padding:5px 0 5px 0;
+margin:0px;
+font-size:18px;
+color:#f7951e;
+}
+
+h3{
+padding:0 0 5px 0;
+margin:0px;
+font-size:12px;
+color:#462B0F;
+font-style:bold;
+}
+h4{
+padding:0 0 10px 0;
+margin:0px;
+font-size:20px;
+color:#7ea743;
+}
+p{
+text-align:justify;
+padding:2px 0 2px 0;
+margin:0px;
+line-height:15px;
+}
+
+p.white{
+color:#FFFFFF;
+}
+
+p.green{
+color:#d4f0ba;
+}
+p.clear{
+clear:both;
+padding:10px 0 0 0;
+}
+
+
+
+#main_container{
+width:100%;
+height:100%;
+
+background-color:#d7d18f;
+
+}
+
+#header{
+position:fixed;
+width:100%;
+height:100px;
+
+background-color:#d7d18f;
+
+}
+#logo{
+padding:15px 0 0 30px;
+width:200px;
+height:100px;
+float:left;
+}
+
+/*----------------------Login Box-------------------------*/
+#loginbox{
+width:auto;
+height:auto;
+margin:7px;
+padding:2px 8px 1px 30px;
+float:right;
+
+}
+
+
+
+/*----------------------Profile Box-------------------------*/
+#Profilebox{
+position:fixed;
+right:1%;
+width:auto;
+height:auto;
+overflow: hidden;
+
+margin: 10px; /*removes indent IE and Opera*/
+padding: 0px; /*removes indent Mozilla and NN7*/
+list-style-type: none;
+}
+
+
+
+/*----------------------Profile Buttons-------------------------*/
+.hbuttons a{
+display: block;
+text-decoration: none;
+font: bold 15px Arial;
+color: black;
+width: auto;
+height: auto;
+float: left;
+display: inline;
+margin: 2px;
+border-style:solid;
+border-width:2px;
+background:#E6E68A;
+/*background-image:url(Images/tabsquare.jpg);
+background-repeat: no-repeat; */
+padding: 2px 4px 3px 4px;
+text-align:center;
+}
+
+.hbuttons a:hover{
+/*background-image:url(Images/tabsquareover.jpg); */
+}
+
+
+/*----------------------Logo Box-------------------------*/
+#logobox{
+
+width:auto;
+height:auto;
+margin:1px;
+padding:1px 0 0 3px;
+float:left;
+overflow:hidden;
+
+}
+
+
+
+
+/*----------------------Sign Up Box-------------------------*/
+#signup_box{
+
+width:auto;
+height:auto;
+margin:10px;
+padding:20px;
+float:right;
+overflow:hidden;
+border:2px solid;
+}
+
+.tb3 {
+	border: 1px dashed #D1C7AC;
+	width: 230px;
+	color:#D1C7AC;
+}
+
+.tb2 {
+	border: 1px dashed #D1C7AC;
+	width: 100px;
+	color:#D1C7AC;
+}
+
+
+
+
+
+
+
+
+
+/*--------------------------main_content-------------------*/
+#main_content{
+position:fixed;
+top:60px;
+width:100%;
+height:90%;
+
+background-color:#FFFFFF;
+background:url(images/bodygrad.png) ;
+}
+
+
+
+#middle_content{
+position:fixed;
+top:100px;
+left:35%;
+height:90%;
+
+
+
+}
+
+#left_content{
+position:fixed;
+width:40%;
+height:auto;
+margin:5%;
+float:left;
+padding:10px;
+
+}
+#right_content{
+position:fixed;
+right:10%;
+width:auto;
+height:auto;
+margin:4% 0px 0px 50px;
+float:right;
+padding:20px 10px 50px 50px;
+}
+
+
+
+/*--------------------------NEWS FEED-------------------*/
+#mainnewsbox
+{
+position:fixed;
+left:40%;
+margin:10px;
+
+}
+
+#newsitem
+{
+position:relative;
+top:15%;
+padding:2px;
+
+}
+
+
+
+/*--------------wide_content-----------*/
+#wide_content{
+width:auto;
+padding:10px 20px 10px 20px;
+}
+
+
+/*-----------------------------footer------------------*/
+#footer{
+position:fixed;
+top:95%;
+width:100%;
+height:5%;
+/*clear:both;
+width: auto;
+height:37px;
+color: #002001; */
+background-color:#d7d18f;
+}
+.copyright{
+float:left;
+padding-left:10px;
+padding-top:10px;
+}
+.footer_links{
+float:right;
+padding-right:15px;
+padding-top:13px;
+}
+.footer_links a{
+text-decoration:none;
+color: #000066;
+padding-left:10px;
+}
+.footer_links a:hover{
+text-decoration:underline;
+color: #ffffcc;
+}

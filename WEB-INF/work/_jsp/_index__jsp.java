@@ -15,18 +15,15 @@ public class _index__jsp extends com.caucho.jsp.JavaPage{
               javax.servlet.http.HttpServletResponse response)
     throws java.io.IOException, javax.servlet.ServletException
   {
-    javax.servlet.http.HttpSession session = request.getSession(true);
     com.caucho.server.webapp.Application _jsp_application = _caucho_getApplication();
     javax.servlet.ServletContext application = _jsp_application;
-    com.caucho.jsp.PageContextImpl pageContext = com.caucho.jsp.QJspFactory.allocatePageContext(this, _jsp_application, request, response, null, session, 8192, true, false);
+    com.caucho.jsp.PageContextImpl pageContext = com.caucho.jsp.QJspFactory.allocatePageContext(this, _jsp_application, request, response, null, null, 8192, true, false);
     javax.servlet.jsp.JspWriter out = pageContext.getOut();
     javax.servlet.ServletConfig config = getServletConfig();
     javax.servlet.Servlet page = this;
     response.setContentType("text/html");
     try {
       out.write(_jsp_string0, 0, _jsp_string0.length);
-      out.print(( new java.util.Date() ));
-      out.write(_jsp_string1, 0, _jsp_string1.length);
     } catch (java.lang.Throwable _jsp_e) {
       pageContext.handlePageException(_jsp_e);
     } finally {
@@ -64,7 +61,17 @@ public class _index__jsp extends com.caucho.jsp.JavaPage{
 
   public long _caucho_lastModified()
   {
-    return 0;
+    long lastModified = 0;
+    for (int i = _caucho_depends.size() - 1; i >= 0; i--) {
+      Object oDepend = _caucho_depends.get(i);
+      if (oDepend instanceof com.caucho.vfs.Depend) {
+        com.caucho.vfs.Depend depend = (com.caucho.vfs.Depend) oDepend;
+        if (lastModified < depend.getLastModified())
+          lastModified = depend.getLastModified();
+      }
+    }
+
+    return lastModified;
   }
 
   public void destroy()
@@ -85,14 +92,12 @@ public class _index__jsp extends com.caucho.jsp.JavaPage{
     String resourcePath = loader.getResourcePathSpecificFirst();
     mergePath.addClassPath(resourcePath);
     com.caucho.vfs.Depend depend;
-    depend = new com.caucho.vfs.Depend(appDir.lookup("index.jsp"), -3171803932994199317L, false);
+    depend = new com.caucho.vfs.Depend(appDir.lookup("index.jsp"), 2550379775734996296L, false);
     com.caucho.jsp.JavaPage.addDepend(_caucho_depends, depend);
   }
 
-  private final static char []_jsp_string1;
   private final static char []_jsp_string0;
   static {
-    _jsp_string1 = "\r\n</BODY>\r\n</HTML>".toCharArray();
-    _jsp_string0 = "<HTML>\r\n<BODY>\r\nHello!  The time is now ".toCharArray();
+    _jsp_string0 = "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\"><head>\r\n\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\r\n\r\n\r\n\r\n<title>Twitter Clone</title>\r\n\r\n<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" media=\"screen\">\r\n\r\n</head>\r\n\r\n\r\n\r\n<body>\r\n\r\n\r\n\r\n\r\n<div id=\"main_container\">\r\n\r\n	\r\n\r\n	<div id=\"header\">\r\n\r\n    	\r\n\r\n		<div id = \"logobox\">\r\n\r\n			<img src=\"images/Logo.png\" alt=\"Logo\" HEIGHT=\"50\" WIDTH=\"300\"/>\r\n\r\n		</div>\r\n\r\n		\r\n\r\n		\r\n\r\n		\r\n\r\n		\r\n\r\n\r\n		\r\n\r\n\r\n		\r\n\r\n		\r\n\r\n		\r\n\r\n\r\n \r\n\r\n    </div>\r\n\r\n    \r\n\r\n	\r\n\r\n  \r\n\r\n    \r\n\r\n    <div id=\"main_content\">\r\n\r\n    \r\n\r\n	\r\n\r\n	<?php\r\n\r\n	\r\n\r\n	\r\n\r\n	if($loggedIn == true)\r\n\r\n	{\r\n\r\n	\r\n\r\n	include('newsFeed.php'); \r\n\r\n	\r\n\r\n	}\r\n\r\n	else\r\n\r\n	{\r\n\r\n	\r\n\r\n	?>\r\n\r\n	\r\n\r\n	\r\n\r\n	<div id=\"left_content\">\r\n\r\n        <h2>Scrob</h2>\r\n\r\n        <p>\r\n\r\nThis is a twitter clone its made of twitters and clones.  \r\n\r\n        </p>\r\n\r\n        \r\n\r\n        \r\n\r\n\r\n     \r\n\r\n        \r\n\r\n  \r\n\r\n    \r\n\r\n        \r\n\r\n        </div><!--end of left content-->\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n    	<div id=\"right_content\">\r\n\r\n        \r\n\r\n        	\r\n\r\n			<div id=\"signup_box\">\r\n\r\n			<h4>Join Today</h4>\r\n\r\n			<form name=\"register\" action=\"registerInitial.php\" method=\"post\">\r\n\r\n				<h3> Username </h3> <input type=\"text\"  class =\"tb3\" name=\"username\" maxlength=\"30\" /></br>\r\n\r\n				<h3> Password:</h3> <input type=\"password\" class =\"tb3\" name=\"pass1\" /></br>\r\n\r\n				<h3> Password Again:</h3> <input type=\"password\"  class =\"tb3\"name=\"pass2\" /></br>\r\n\r\n		<input type=\"submit\" value=\"Register\" />\r\n\r\n	</form>\r\n\r\n			\r\n\r\n		<!--	<input type=\"submit\" value=\"Sign Up\" /> -->\r\n\r\n			\r\n\r\n			</form>\r\n\r\n            \r\n\r\n			\r\n\r\n            </div>\r\n\r\n            \r\n\r\n            \r\n\r\n\r\n\r\n        </div><!--end of right content-->\r\n\r\n\r\n\r\n\r\n\r\n		<?php\r\n\r\n		\r\n\r\n		}\r\n\r\n		\r\n\r\n		?>\r\n\r\n    \r\n\r\n    <div style=\" clear:both;\"></div>\r\n\r\n    </div><!--end of main content-->\r\n\r\n \r\n\r\n\r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\n     <div id=\"footer\">\r\n\r\n     	\r\n\r\n		<div class=\"copyright\">\r\n\r\n		Copyrightlololol\r\n\r\n        </div>\r\n\r\n		\r\n\r\n		\r\n\r\n        	<div class=\"footer_links\">\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n        </div>\r\n\r\n\r\n\r\n    \r\n\r\n    \r\n\r\n    </div>  \r\n\r\n \r\n\r\n   \r\n\r\n\r\n\r\n</div> <!--end of main container-->\r\n\r\n\r\n\r\n\r\n\r\n</body>\r\n\r\n</html>".toCharArray();
   }
 }
