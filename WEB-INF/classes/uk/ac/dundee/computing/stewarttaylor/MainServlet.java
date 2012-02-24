@@ -53,7 +53,7 @@ public class MainServlet extends HttpServlet
 				 st = MyConnection.createStatement();
 
 
-			rs = st.executeQuery("Select * from message   JOIN user ON message.user_id = user.user_id ORDER BY message_id DESC LIMIT 3 ");
+			rs = st.executeQuery("Select * from message   JOIN user ON message.user_id = user.user_id ORDER BY message_id DESC LIMIT 2 ");
 
 
 			int count = 0;

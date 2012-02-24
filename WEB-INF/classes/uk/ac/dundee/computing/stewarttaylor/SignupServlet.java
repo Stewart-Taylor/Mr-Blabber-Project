@@ -142,6 +142,10 @@ public class SignupServlet extends HttpServlet
 			{
 				return false;
 			}
+			else if (name.length() > 9)
+			{
+				return false;
+			}
 		
 			return true;
 		}

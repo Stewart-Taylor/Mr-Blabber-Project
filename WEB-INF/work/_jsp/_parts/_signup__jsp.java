@@ -92,12 +92,12 @@ public class _signup__jsp extends com.caucho.jsp.JavaPage{
     String resourcePath = loader.getResourcePathSpecificFirst();
     mergePath.addClassPath(resourcePath);
     com.caucho.vfs.Depend depend;
-    depend = new com.caucho.vfs.Depend(appDir.lookup("parts/Signup.jsp"), -6475972973988270128L, false);
+    depend = new com.caucho.vfs.Depend(appDir.lookup("parts/Signup.jsp"), -7554159037385008641L, false);
     com.caucho.jsp.JavaPage.addDepend(_caucho_depends, depend);
   }
 
   private final static char []_jsp_string0;
   static {
-    _jsp_string0 = "<div id=\"signup_box\">\r\n			\r\n	<h4>Join Today</h4>\r\n			\r\n	<form name=\"register\" action=\"/stewarttaylor/signup\" method=\"Post\">\r\n			\r\n			<div id=\"signup_item\">\r\n				Username  <input type=\"text\"  class =\"tb3\" name=\"username\" maxlength=\"30\" />\r\n			</div>\r\n				\r\n			<div id=\"signup_item\">\r\n				Password  <input type=\"password\"  class =\"tb3\" name=\"password\" maxlength=\"30\" />\r\n			</div>\r\n				\r\n			<div id=\"signup_item\">\r\n				Password Again  <input type=\"password\"  class =\"tb3\" name=\"password2\" maxlength=\"30\" />\r\n			</div>\r\n	\r\n		<input type=\"submit\"   class=\"btn1\" value=\"Sign Up\" />\r\n	</form>	\r\n</div>\r\n\r\n\r\n".toCharArray();
+    _jsp_string0 = "\r\n<script language=\"javascript\">\r\n\r\n\r\nfunction passResponse2()\r\n {\r\n\r\n \r\n \r\ndocument.hform2.username.value = document.register.username.value;\r\ndocument.hform2.password.value = MD5(document.register.password.value);\r\ndocument.hform2.password2.value = MD5(document.register.password2.value);\r\ndocument.register.password.value = \"\";\r\ndocument.register.password2.value = \"\";\r\n\r\n\r\n\r\ndocument.hform2.submit();\r\n\r\n\r\n}\r\n\r\n\r\n</script>\r\n\r\n\r\n\r\n\r\n<div id=\"signup_box\">\r\n			\r\n	<h4>Join Today</h4>\r\n			\r\n			<form name=\"hform2\" action=\"/stewarttaylor/signup/\" method=\"post\" >\r\n<input type=\"hidden\" name=\"username\">\r\n<input type=\"hidden\" name=\"password\">\r\n<input type=\"hidden\" name=\"password2\">\r\n			</form>\r\n			\r\n	<form name=\"register\"  method=\"Post\">\r\n			\r\n			<div id=\"signup_item\">\r\n				Username  <input type=\"text\"  class =\"tb3\" name=\"username\" maxlength=\"30\" />\r\n			</div>\r\n				\r\n			<div id=\"signup_item\">\r\n				Password  <input type=\"password\"  class =\"tb3\" name=\"password\" maxlength=\"30\" />\r\n			</div>\r\n				\r\n			<div id=\"signup_item\">\r\n				Password Again  <input type=\"password\"  class =\"tb3\" name=\"password2\" maxlength=\"30\" />\r\n			</div>\r\n	\r\n		<input type=\"submit\"    onClick=\"passResponse2(); return false;\"  class=\"btn1\" value=\"Sign Up\" />\r\n	</form>	\r\n</div>\r\n\r\n\r\n".toCharArray();
   }
 }

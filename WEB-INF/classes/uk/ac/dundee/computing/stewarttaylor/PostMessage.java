@@ -83,6 +83,9 @@ try
 		private void postMsg(String msg , int id)
 		{
 
+		 msg = msg.replaceAll("<", "");
+		 msg = msg.replaceAll(">", "");
+		
 				String query = "  INSERT INTO message (message_text, user_id )VALUES (?,?) ";
 
 				 try 

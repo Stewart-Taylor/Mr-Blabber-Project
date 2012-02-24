@@ -144,6 +144,9 @@ float:left;
 font-weight:bold;
 font-size:12px;
 text-shadow:6px 4px 48px #808080;
+
+
+
 }
 
 
@@ -158,9 +161,10 @@ padding:30px 0px 10px 380px;
 
 /*----------------------Recent Message Box-------------------------*/
 #recentmsgbox{
-width:300px;
+
+width:430px;
 height: 100%; 
-margin:50px 8px 40px 70px;
+margin:20px 8px 40px 20px;
 padding:20px 10px 20px 30px;
 background-color: #FFC;
 box-shadow:6px 4px 18px #808080;
@@ -200,35 +204,57 @@ padding:30px;
 /*---------------------- Message Box-------------------------*/
 #msgbox{
 position:relative;
-width:250px;
-height:130px;
-margin:7px;
+width:400px;
+height:200px;
+margin:10px;
 
-
+background:url(/stewarttaylor/Images/boxBackground.png) ;
 border-style:solid;
 border-width:1px;
 box-shadow:6px 4px 18px #808080;
 background-color:#ccffff;
+
+border-radius:5px;
+-moz-border-radius:5px;
 }
 
 
-#msgUser{
-margin:8px;
-width:30px;
-left:20px;
+#msgProfile
+{
+
 float:left;
-width:30px;
-font-size:17px;
+
+}
+
+#msgDelete
+{
+float:right;
+
+}
+
+
+
+#msgUser
+{
+margin:4px;
+padding:1px;
+font-size:18px;
 font-weight:bold;
 color:#cccc99;
+
 }
 
-#msgTime{
-position:relative;
-top:30px;
-left:-40px;
-float:left;
-margin:3px;
+#msgUser a
+{
+text-shadow:1px 1px 5px #808080;
+}
+
+#msgTime
+{
+float:bottom;
+font-size:11px;
+font-weight:bold;
+text-shadow:1px 1px 11px #808080;
 
 }
 
@@ -244,20 +270,31 @@ box-shadow:6px 4px 18px #808080;
 }
 
 #msgImage img{
-width:50px;
-height:50px;
+width:80px;
+height:80px;
 
 
 }
 
 #msgText{
-position: absolute; bottom: -1px; width: 90%;
-margin:3px;
-padding:8px;
+
+width:290px;
+height:150px;
+margin:4px;
+padding:4px;
+float:right;
 color: #000000;
 background-color:#ffffcc;
-word-wrap: break-word;
+
 box-shadow:1px 1px 8px #808080;
+background:url(/stewarttaylor/Images/boxText.png);
+font-size:14px;
+word-wrap:break-word;
+border-style:solid;
+border-width:1px;
+
+border-radius:5px;
+-moz-border-radius:5px;
 }
 /*---------------------- End Message Box-------------------------*/
 
@@ -265,6 +302,9 @@ box-shadow:1px 1px 8px #808080;
 
 /*----------------------Sign Up Box-------------------------*/
 #signup_box{
+
+border-radius:5px;
+-moz-border-radius:5px;
 
 width:250px;
 height:auto;
@@ -394,13 +434,16 @@ float:left;
 /*--------------------------NEWS FEED-------------------*/
 #mainnewsbox
 {
+margin:12px 12px 28px -50px;
 
-margin:10px;
-padding:20px;
 }
 
 #messageBox
 {
+
+
+
+
 width:300px;
 height:300px;
 padding:15px;
@@ -409,6 +452,9 @@ margin:4px;
 
 #createMessageBox
 {
+
+
+
 width:auto;
 padding:10px;
 margin: 20px 0px 0px 0px;
@@ -420,6 +466,9 @@ margin: 20px 0px 0px 0px;
 
 #messageWriteBox
 {
+
+border-radius:15px;
+-moz-border-radius:15px;
 
 width:300px;
 padding:8px;
@@ -446,20 +495,25 @@ box-shadow:6px 4px 18px #808080;
 #profileContent
 {
 float:left;
-width:400px;
+width:380px;
 height:auto;
 border-style:solid;
 border-width:1px;
-margin: 60px 10px 30px 40px;
+margin: 60px 10px 30px -190px;
 padding:8px;
 font-size:16px;
 font-weight:bold;
 background-color: #FFC;
 box-shadow:6px 4px 18px #808080;
+border-radius:10px;
+-moz-border-radius:10px;
+
 }
 
 #profileBox
 {
+
+
 
 padding:10px;
 

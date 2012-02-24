@@ -31,46 +31,63 @@ try
 	
 	 <div id="msgbox">
 	   
-		   <div id="msgUser">
-		   <a href="/stewarttaylor/profile/<% out.println(names[i]); %>"> <% out.println(names[i]); %></a>
-		   </div>
-		  
-		  <div id="msgTime">
-		   <p><% out.println(dates[i]); %></p>
-		   
-		   
-		   <%
-		   
-			   
+	   
+	   	   		<div id="msgUser">
+				<a href="/stewarttaylor/profile/<% out.println(names[i]); %>"><% out.println(names[i]); %></a>
+				
+
+				 <%
 				if (canDelete[i] == true)
 				{
-			   
 			   %>
-					<a href="/stewarttaylor/deletemessage/<% out.println(id[i]); %>">Delete </a>
-			   
-			   <%
-			   
-			 
+				
+				<div id="msgDelete">
+					<a href="/stewarttaylor/deletemessage/<% out.println(id[i]); %>"><img src="/stewarttaylor/Images/Delete.png" alt="Delete" /> </a>
+				</div>
+				
+				
+				 <%
 				}
+				%>
+				
+				</div>
+	   
+	   
+	    <div id="msgProfile">
+		
+		
+					<div id="msgImage">
+					<img src="<% out.println(images[i]); %>" alt="Avatar" />
+			   </div>
+			   
+			   
+							 <div id="msgTime">
+				<p><% out.println(dates[i]); %></p>
+			   </div>
 		   
 		   
-		   
-		   
-		   %>
-		   
-		   
-		  <!-- <a href="deletemessage/12">Delete </a> -->
 		   </div>
 		   
-			<div id="msgImage">
-				<img src="<% out.println(images[i]); %>" alt="Avatar" />
-		   </div>
 		   
 		   
-		   <div id="msgText">
-		   <p><xmp><% out.println(messages[i]); %></xmp>
-		   </p>
+		   	<div id="msgText">
+		   <p>
+		   <% out.println(messages[i]); %>
+		   </textarea></p>
 		   </div>
+		   
+	   
+		   
+		  
+		  
+		   
+		   
+
+		   
+		   
+		  
+		   
+		   
 		 
 		   
 	   </div>
