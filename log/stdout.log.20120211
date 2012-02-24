@@ -1,0 +1,1556 @@
+[18:08:26.861] resin-file: init
+[18:08:30.580] Controller: init
+servlet started
+/stewarttaylor/test
+[18:08:37.548] Compiling _jsp/_login__jsp.java
+Your user name is jim
+Your password is lulz
+Query: select * from user where username='jim' AND password='lulz'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is jim
+Your password is lolz
+Query: select * from user where username='jim' AND password='lolz'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+/stewarttaylor/test
+Your user name is jim
+Your password is lolz
+Query: select * from user where username='jim' AND password='lolz'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is Stu
+Your password is lulz
+Query: select * from user where username='Stu' AND password='lulz'
+Welcome jim@test.com
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is jim@test.com
+Your password is lulz
+Query: select * from user where username='jim@test.com' AND password='lulz'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is Stu
+Your password is lulz
+Query: select * from user where username='Stu' AND password='lulz'
+Welcome jim@test.com
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is Stu
+Your password is lulz 
+Query: select * from user where username='Stu' AND password='lulz '
+Welcome jim@test.com
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is Stu
+Your password is lulz
+Query: select * from user where username='Stu' AND password='lulz'
+Welcome jim@test.com
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is jim@test.com
+Your password is lulz
+Query: select * from user where username='jim@test.com' AND password='lulz'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is jim@test.com
+Your password is lulzv
+Query: select * from user where username='jim@test.com' AND password='lulzv'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is jim
+Your password is lolz
+Query: select * from user where username='jim' AND password='lolz'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is Stu
+Your password is lolz
+Query: select * from user where username='Stu' AND password='lolz'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+[18:27:54.228] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[18:27:54.228] resin-file: destroy
+[18:27:54.228] Controller: destroy
+[18:27:54.228] LoginServlet: destroy
+[18:27:54.682] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[18:27:54.697] resin-file: init
+[18:28:05.041] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[18:28:05.041] resin-file: destroy
+[18:28:05.150] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[18:28:05.150] LoginServlet: init
+Your user name is Stu
+Your password is lolz
+Query: select * from user where username='Stu' AND password='lolz'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is Stu
+Your password is lulz
+Query: select * from user where username='Stu' AND password='lulz'
+Welcome jim@test.com
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is Stu
+Your password is lulz
+Query: select * from user where username='Stu' AND password='lulz'
+Welcome jim@test.com
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+Your user name is null
+Your password is null
+Query: select * from user where username='null' AND password='null'
+Sorry, you are not a registered user! Please sign up first
+[18:36:47.006] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[18:36:47.006] LoginServlet: destroy
+[18:36:47.116] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[18:36:49.928] resin-file: init
+[18:37:12.865] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[18:37:12.865] resin-file: destroy
+[18:37:12.975] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[18:37:19.928] LoginServlet: init
+Your user name is Stu
+Your password is lulz
+Query: select * from user where username='Stu' AND password='lulz'
+Welcome jim@test.com
+[18:39:13.443] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[18:39:13.443] LoginServlet: destroy
+[18:39:13.568] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[18:52:42.453] LoginServlet: init
+Your user name is Stu
+Your password is lulz
+Query: select * from user where username='Stu' AND password='lulz'
+Welcome jim@test.com
+Your user name is Stu
+Your password is lulz
+Query: select * from user where username='Stu' AND password='lulz'
+Welcome jim@test.com

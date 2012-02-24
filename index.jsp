@@ -1,253 +1,126 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml"><head>
-
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 
 
-<title>Twitter Clone</title>
+<!DOCTYPE html>
 
-<link rel="stylesheet" type="text/css" href="style.css" media="screen">
+<html xmlns="http://www.w3.org/1999/xhtml">
 
-</head>
+	<head>
+		<meta charset="utf-8" />
+		<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+		<title> </title>
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<link rel="stylesheet" href="/stewarttaylor/style.css" type="text/css" media="screen, projection" />
 
-
+		<script language="javascript" src="md5.js"></script>
+		
+	</head>
 
 <body>
 
+	<div id="wrapper">
 
 
 
-<div id="main_container">
 
-	
+		<div id="header">
 
-	<div id="header">
 
-    	
+<script language="javascript">
+function passResponse()
+ {
+document.hform.un.value = document.login.un.value;
+document.hform.pw.value = MD5(document.login.pw.value);
+document.login.pw.value = "";
+document.hform.submit();
 
-		<div id = "logobox">
 
-			<img src="images/Logo.png" alt="Logo" HEIGHT="50" WIDTH="300"/>
+}
+
+</script>
+		
+		
+			<div id = "logobox">
+				<img src="Images/Logo.png" alt="Logo" />
+			</div>
+
+				<div id="loginbox">		
+				
+							<form name="hform" action="/stewarttaylor/login/" method="post" >
+<input type="hidden" name="un">
+<input type="hidden" name="pw">
+			</form>
+				
+				
+					<form name="login" method="post" >
+						
+						<div id="loginbox_item" >
+							Username <input type="text" name="un" />
+						</div>
+						
+						<div id="loginbox_item" >
+							Password <input type="password" name="pw" />
+						</div>
+						
+						<div id="loginbox_button">
+							<input onClick="passResponse(); return false;" type="submit"   class="btn2" value="Login" />
+						</div>
+						
+					</form>
+				</div>
 
 		</div>
 
+
+		<div id="content">
+
+				
+		<div id="left_content">
 		
-
+		<div id="recentmsgbox">
 		
-
-		
-
-		
-
-
-		
-
-
-		
-
-		
-
-		
-
-
- 
-
-    </div>
-
-    
-
-	
-
-  
-
-    
-
-    <div id="main_content">
-
-    
-
-	
-
-	<?php
-
-	
-
-	
-
-	if($loggedIn == true)
-
-	{
-
-	
-
-	include('newsFeed.php'); 
-
-	
-
-	}
-
-	else
-
-	{
-
-	
-
-	?>
-
-	
-
-	
-
-	<div id="left_content">
-
-        <h2>Scrob</h2>
-
-        <p>
-
-This is a twitter clone its made of twitters and clones.  
-
-        </p>
-
-        
-
-        
-
-
-     
-
-        
-
-  
-
-    
-
-        
-
-        </div><!--end of left content-->
-
-
-
-
-
-
-
-    	<div id="right_content">
-
-        
-
-        	
-
-			<div id="signup_box">
-
-			<h4>Join Today</h4>
-
-			<form name="register" action="registerInitial.php" method="post">
-
-				<h3> Username </h3> <input type="text"  class ="tb3" name="username" maxlength="30" /></br>
-
-				<h3> Password:</h3> <input type="password" class ="tb3" name="pass1" /></br>
-
-				<h3> Password Again:</h3> <input type="password"  class ="tb3"name="pass2" /></br>
-
-		<input type="submit" value="Register" />
-
-	</form>
-
+					<h2>Recent Blab </h2>
+
+			  
+				
+			<%@ include file="parts/messagesDisplay.jsp" %>
+			 
+			 
 			
-
-		<!--	<input type="submit" value="Sign Up" /> -->
-
+			   
+			   
+		</div>
+		
+		
+		
+		 
+		 
 			
-
-			</form>
-
-            
-
+	 
+		
 			
-
-            </div>
-
-            
-
-            
+			</div><!--end of left content-->
 
 
 
-        </div><!--end of right content-->
+			<div id="right_content">
+			
+				<%@ include file="parts/Signup.jsp" %>
+				
+			</div><!--end of right content-->
+
+
+		 <div style="clear: both;">
+		 </div><!-- #content-->
 
 
 
+		<footer id="footer">
+			<p>Created By Stewart Taylor</p>
+		</footer><!-- #footer -->
 
-
-		<?php
-
-		
-
-		}
-
-		
-
-		?>
-
-    
-
-    <div style=" clear:both;"></div>
-
-    </div><!--end of main content-->
-
- 
-
-
-
- 
-
- 
-
- 
-
- 
-
-     <div id="footer">
-
-     	
-
-		
-
-		
-
-		
-
-        	<div class="footer_links">
-
-
-
-
-
-
-
-
-
-        </div>
-
-
-
-    
-
-    
-
-    </div>  
-
- 
-
-   
-
-
-
-</div> <!--end of main container-->
-
-
+	</div><!-- #wrapper -->
 
 
 

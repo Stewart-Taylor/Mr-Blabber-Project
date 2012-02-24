@@ -1,0 +1,147 @@
+<web-app xmlns="http://caucho.com/ns/resin"
+         xmlns:resin="http://caucho.com/ns/resin/core">
+<class-loader>
+    <simple-loader path="WEB-INF/classes"/>
+    <compiling-loader path="WEB-INF/classes" source="WEB-INF/classes"/>
+  </class-loader>
+
+
+
+
+      <servlet>
+  	<servlet-name>MainServlet</servlet-name>
+		<servlet-class>uk.ac.dundee.computing.stewarttaylor.MainServlet</servlet-class>
+	</servlet>
+	  <servlet-mapping>
+    <servlet-name>MainServlet</servlet-name>
+    <url-pattern>*/</url-pattern>
+  </servlet-mapping>
+  
+
+    <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>uk.ac.dundee.computing.stewarttaylor.LoginServlet</servlet-class>
+	</servlet>
+	  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/Login/*</url-pattern>
+  </servlet-mapping>
+  
+      <servlet>
+  	<servlet-name>LogoutServlet</servlet-name>
+		<servlet-class>uk.ac.dundee.computing.stewarttaylor.Logout</servlet-class>
+	</servlet>
+	  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+  
+  
+        <servlet>
+  	<servlet-name>NewsfeedServlet</servlet-name>
+		<servlet-class>uk.ac.dundee.computing.stewarttaylor.NewsfeedServlet</servlet-class>
+	</servlet>
+	  <servlet-mapping>
+    <servlet-name>NewsfeedServlet</servlet-name>
+    <url-pattern>/newsfeed/*</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+          <servlet>
+  	<servlet-name>PostServlet</servlet-name>
+		<servlet-class>uk.ac.dundee.computing.stewarttaylor.PostMessage</servlet-class>
+	</servlet>
+	  <servlet-mapping>
+    <servlet-name>PostServlet</servlet-name>
+    <url-pattern>/post/*</url-pattern>
+  </servlet-mapping>
+  	  <servlet-mapping>
+    <servlet-name>PostServlet</servlet-name>
+    <url-pattern>/message/*</url-pattern>
+  </servlet-mapping>
+
+  
+    
+  
+  
+              <servlet>
+  	<servlet-name>ProfileServlet</servlet-name>
+		<servlet-class>uk.ac.dundee.computing.stewarttaylor.ProfileServlet</servlet-class>
+	</servlet>
+	  <servlet-mapping>
+    <servlet-name>ProfileServlet</servlet-name>
+    <url-pattern>/profile/*</url-pattern>
+  </servlet-mapping>
+  
+  
+                <servlet>
+  	<servlet-name>SignupServlet</servlet-name>
+		<servlet-class>uk.ac.dundee.computing.stewarttaylor.SignupServlet</servlet-class>
+	</servlet>
+	  <servlet-mapping>
+    <servlet-name>SignupServlet</servlet-name>
+    <url-pattern>/signup/*</url-pattern>
+  </servlet-mapping>
+  
+  
+    <servlet>
+  	<servlet-name>FollowServlet</servlet-name>
+		<servlet-class>uk.ac.dundee.computing.stewarttaylor.FollowServlet</servlet-class>
+	</servlet>
+	  <servlet-mapping>
+    <servlet-name>FollowServlet</servlet-name>
+    <url-pattern>/follow/*</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+      <servlet>
+  	<servlet-name>UnFollowServlet</servlet-name>
+		<servlet-class>uk.ac.dundee.computing.stewarttaylor.UnFollowServlet</servlet-class>
+	</servlet>
+	  <servlet-mapping>
+    <servlet-name>UnFollowServlet</servlet-name>
+    <url-pattern>/unfollow/*</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+        <servlet>
+  	<servlet-name>EditProfileServlet</servlet-name>
+		<servlet-class>uk.ac.dundee.computing.stewarttaylor.EditProfileServlet</servlet-class>
+	</servlet>
+	  <servlet-mapping>
+    <servlet-name>EditProfileServlet</servlet-name>
+    <url-pattern>/editprofile/*</url-pattern>
+  </servlet-mapping>
+  
+  
+   <servlet>
+  	<servlet-name>DeleteMessageServlet</servlet-name>
+		<servlet-class>uk.ac.dundee.computing.stewarttaylor.DeleteMessage</servlet-class>
+	</servlet>
+	  <servlet-mapping>
+    <servlet-name>DeleteMessageServlet</servlet-name>
+    <url-pattern>/deletemessage/*</url-pattern>
+  </servlet-mapping>
+  
+     <servlet>
+  	<servlet-name>SearchServlet</servlet-name>
+		<servlet-class>uk.ac.dundee.computing.stewarttaylor.SearchServlet</servlet-class>
+	</servlet>
+	  <servlet-mapping>
+    <servlet-name>SearchServlet</servlet-name>
+    <url-pattern>/search/*</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+    
+  
+  
+
+  
+
+  
+</web-app>

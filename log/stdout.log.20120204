@@ -1,0 +1,1160 @@
+[20:32:32.235] directory: init
+[20:44:09.159] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[20:44:09.159] directory: destroy
+[20:44:09.159] resin-file: destroy
+[20:57:44.456] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[20:57:44.675] resin-file: init
+[12:04:56.893] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[12:04:56.893] resin-file: destroy
+[12:04:58.143] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[12:05:01.517] resin-file: init
+[12:05:26.533] TestURI: init
+/stewarttaylor/testuri
+[12:05:26.548] java.io.FileNotFoundException: /DisplayURL.jsp
+[12:05:26.548] 	at com.caucho.jsp.PageManager.getPage(PageManager.java:251)
+[12:05:26.548] 	at com.caucho.jsp.PageManager.getPage(PageManager.java:166)
+[12:05:26.548] 	at com.caucho.jsp.QServlet.getSubPage(QServlet.java:298)
+[12:05:26.548] 	at com.caucho.jsp.QServlet.getPage(QServlet.java:210)
+[12:05:26.548] 	at com.caucho.server.dispatch.PageFilterChain.compilePage(PageFilterChain.java:206)
+[12:05:26.548] 	at com.caucho.server.dispatch.PageFilterChain.doFilter(PageFilterChain.java:133)
+[12:05:26.548] 	at com.caucho.server.webapp.DispatchFilterChain.doFilter(DispatchFilterChain.java:115)
+[12:05:26.548] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[12:05:26.548] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:277)
+[12:05:26.548] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:106)
+[12:05:26.548] 	at uk.ac.dundee.computing.aec.TestURL.doGet(TestURL.java:55)
+[12:05:26.548] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:115)
+[12:05:26.548] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:92)
+[12:05:26.548] 	at com.caucho.server.dispatch.ServletFilterChain.doFilter(ServletFilterChain.java:106)
+[12:05:26.548] 	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:173)
+[12:05:26.548] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[12:05:26.548] 	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:274)
+[12:05:26.548] 	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:511)
+[12:05:26.548] 	at com.caucho.util.ThreadPool.runTasks(ThreadPool.java:516)
+[12:05:26.548] 	at com.caucho.util.ThreadPool.run(ThreadPool.java:442)
+[12:05:26.548] 	at java.lang.Thread.run(Thread.java:595)
+/stewarttaylor/testURI
+[12:05:36.954] java.io.FileNotFoundException: /DisplayURL.jsp
+[12:05:36.954] 	at com.caucho.jsp.PageManager.getPage(PageManager.java:251)
+[12:05:36.954] 	at com.caucho.jsp.PageManager.getPage(PageManager.java:166)
+[12:05:36.954] 	at com.caucho.jsp.QServlet.getSubPage(QServlet.java:298)
+[12:05:36.954] 	at com.caucho.jsp.QServlet.getPage(QServlet.java:210)
+[12:05:36.954] 	at com.caucho.server.dispatch.PageFilterChain.compilePage(PageFilterChain.java:206)
+[12:05:36.954] 	at com.caucho.server.dispatch.PageFilterChain.doFilter(PageFilterChain.java:133)
+[12:05:36.954] 	at com.caucho.server.webapp.DispatchFilterChain.doFilter(DispatchFilterChain.java:115)
+[12:05:36.954] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[12:05:36.954] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:277)
+[12:05:36.954] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:106)
+[12:05:36.954] 	at uk.ac.dundee.computing.aec.TestURL.doGet(TestURL.java:55)
+[12:05:36.954] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:115)
+[12:05:36.954] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:92)
+[12:05:36.954] 	at com.caucho.server.dispatch.ServletFilterChain.doFilter(ServletFilterChain.java:106)
+[12:05:36.954] 	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:173)
+[12:05:36.954] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[12:05:36.954] 	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:274)
+[12:05:36.954] 	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:511)
+[12:05:36.954] 	at com.caucho.util.ThreadPool.runTasks(ThreadPool.java:516)
+[12:05:36.954] 	at com.caucho.util.ThreadPool.run(ThreadPool.java:442)
+[12:05:36.954] 	at java.lang.Thread.run(Thread.java:595)
+/stewarttaylor/TestURI/arequest/
+[12:07:22.718] java.io.FileNotFoundException: /DisplayURL.jsp
+[12:07:22.718] 	at com.caucho.jsp.PageManager.getPage(PageManager.java:251)
+[12:07:22.718] 	at com.caucho.jsp.PageManager.getPage(PageManager.java:166)
+[12:07:22.718] 	at com.caucho.jsp.QServlet.getSubPage(QServlet.java:298)
+[12:07:22.718] 	at com.caucho.jsp.QServlet.getPage(QServlet.java:210)
+[12:07:22.718] 	at com.caucho.server.dispatch.PageFilterChain.compilePage(PageFilterChain.java:206)
+[12:07:22.718] 	at com.caucho.server.dispatch.PageFilterChain.doFilter(PageFilterChain.java:133)
+[12:07:22.718] 	at com.caucho.server.webapp.DispatchFilterChain.doFilter(DispatchFilterChain.java:115)
+[12:07:22.718] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[12:07:22.718] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:277)
+[12:07:22.718] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:106)
+[12:07:22.718] 	at uk.ac.dundee.computing.aec.TestURL.doGet(TestURL.java:55)
+[12:07:22.718] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:115)
+[12:07:22.718] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:92)
+[12:07:22.718] 	at com.caucho.server.dispatch.ServletFilterChain.doFilter(ServletFilterChain.java:106)
+[12:07:22.718] 	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:173)
+[12:07:22.718] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[12:07:22.718] 	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:274)
+[12:07:22.718] 	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:511)
+[12:07:22.718] 	at com.caucho.util.ThreadPool.runTasks(ThreadPool.java:516)
+[12:07:22.718] 	at com.caucho.util.ThreadPool.run(ThreadPool.java:442)
+[12:07:22.718] 	at java.lang.Thread.run(Thread.java:595)
+/stewarttaylor/TestURI/arequest/
+[12:07:25.093] java.io.FileNotFoundException: /DisplayURL.jsp
+[12:07:25.093] 	at com.caucho.jsp.PageManager.getPage(PageManager.java:251)
+[12:07:25.093] 	at com.caucho.jsp.PageManager.getPage(PageManager.java:166)
+[12:07:25.093] 	at com.caucho.jsp.QServlet.getSubPage(QServlet.java:298)
+[12:07:25.093] 	at com.caucho.jsp.QServlet.getPage(QServlet.java:210)
+[12:07:25.093] 	at com.caucho.server.dispatch.PageFilterChain.compilePage(PageFilterChain.java:206)
+[12:07:25.093] 	at com.caucho.server.dispatch.PageFilterChain.doFilter(PageFilterChain.java:133)
+[12:07:25.093] 	at com.caucho.server.webapp.DispatchFilterChain.doFilter(DispatchFilterChain.java:115)
+[12:07:25.093] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[12:07:25.093] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:277)
+[12:07:25.093] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:106)
+[12:07:25.093] 	at uk.ac.dundee.computing.aec.TestURL.doGet(TestURL.java:55)
+[12:07:25.093] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:115)
+[12:07:25.093] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:92)
+[12:07:25.093] 	at com.caucho.server.dispatch.ServletFilterChain.doFilter(ServletFilterChain.java:106)
+[12:07:25.093] 	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:173)
+[12:07:25.093] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[12:07:25.093] 	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:274)
+[12:07:25.093] 	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:511)
+[12:07:25.093] 	at com.caucho.util.ThreadPool.runTasks(ThreadPool.java:516)
+[12:07:25.093] 	at com.caucho.util.ThreadPool.run(ThreadPool.java:442)
+[12:07:25.093] 	at java.lang.Thread.run(Thread.java:595)
+/stewarttaylor/TestURI/
+[12:07:27.390] java.io.FileNotFoundException: /DisplayURL.jsp
+[12:07:27.390] 	at com.caucho.jsp.PageManager.getPage(PageManager.java:251)
+[12:07:27.390] 	at com.caucho.jsp.PageManager.getPage(PageManager.java:166)
+[12:07:27.390] 	at com.caucho.jsp.QServlet.getSubPage(QServlet.java:298)
+[12:07:27.390] 	at com.caucho.jsp.QServlet.getPage(QServlet.java:210)
+[12:07:27.390] 	at com.caucho.server.dispatch.PageFilterChain.compilePage(PageFilterChain.java:206)
+[12:07:27.390] 	at com.caucho.server.dispatch.PageFilterChain.doFilter(PageFilterChain.java:133)
+[12:07:27.390] 	at com.caucho.server.webapp.DispatchFilterChain.doFilter(DispatchFilterChain.java:115)
+[12:07:27.390] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[12:07:27.390] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:277)
+[12:07:27.390] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:106)
+[12:07:27.390] 	at uk.ac.dundee.computing.aec.TestURL.doGet(TestURL.java:55)
+[12:07:27.390] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:115)
+[12:07:27.390] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:92)
+[12:07:27.390] 	at com.caucho.server.dispatch.ServletFilterChain.doFilter(ServletFilterChain.java:106)
+[12:07:27.390] 	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:173)
+[12:07:27.390] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[12:07:27.390] 	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:274)
+[12:07:27.390] 	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:511)
+[12:07:27.390] 	at com.caucho.util.ThreadPool.runTasks(ThreadPool.java:516)
+[12:07:27.390] 	at com.caucho.util.ThreadPool.run(ThreadPool.java:442)
+[12:07:27.390] 	at java.lang.Thread.run(Thread.java:595)
+/stewarttaylor/TestURI
+[12:07:29.171] java.io.FileNotFoundException: /DisplayURL.jsp
+[12:07:29.171] 	at com.caucho.jsp.PageManager.getPage(PageManager.java:251)
+[12:07:29.171] 	at com.caucho.jsp.PageManager.getPage(PageManager.java:166)
+[12:07:29.171] 	at com.caucho.jsp.QServlet.getSubPage(QServlet.java:298)
+[12:07:29.171] 	at com.caucho.jsp.QServlet.getPage(QServlet.java:210)
+[12:07:29.171] 	at com.caucho.server.dispatch.PageFilterChain.compilePage(PageFilterChain.java:206)
+[12:07:29.171] 	at com.caucho.server.dispatch.PageFilterChain.doFilter(PageFilterChain.java:133)
+[12:07:29.171] 	at com.caucho.server.webapp.DispatchFilterChain.doFilter(DispatchFilterChain.java:115)
+[12:07:29.171] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[12:07:29.171] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:277)
+[12:07:29.171] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:106)
+[12:07:29.171] 	at uk.ac.dundee.computing.aec.TestURL.doGet(TestURL.java:55)
+[12:07:29.171] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:115)
+[12:07:29.171] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:92)
+[12:07:29.171] 	at com.caucho.server.dispatch.ServletFilterChain.doFilter(ServletFilterChain.java:106)
+[12:07:29.171] 	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:173)
+[12:07:29.171] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[12:07:29.171] 	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:274)
+[12:07:29.171] 	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:511)
+[12:07:29.171] 	at com.caucho.util.ThreadPool.runTasks(ThreadPool.java:516)
+[12:07:29.171] 	at com.caucho.util.ThreadPool.run(ThreadPool.java:442)
+[12:07:29.171] 	at java.lang.Thread.run(Thread.java:595)
+/stewarttaylor/TestURI/arequest/
+[12:08:08.858] java.io.FileNotFoundException: /DisplayURL.jsp
+[12:08:08.858] 	at com.caucho.jsp.PageManager.getPage(PageManager.java:251)
+[12:08:08.858] 	at com.caucho.jsp.PageManager.getPage(PageManager.java:166)
+[12:08:08.858] 	at com.caucho.jsp.QServlet.getSubPage(QServlet.java:298)
+[12:08:08.858] 	at com.caucho.jsp.QServlet.getPage(QServlet.java:210)
+[12:08:08.858] 	at com.caucho.server.dispatch.PageFilterChain.compilePage(PageFilterChain.java:206)
+[12:08:08.858] 	at com.caucho.server.dispatch.PageFilterChain.doFilter(PageFilterChain.java:133)
+[12:08:08.858] 	at com.caucho.server.webapp.DispatchFilterChain.doFilter(DispatchFilterChain.java:115)
+[12:08:08.858] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[12:08:08.858] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:277)
+[12:08:08.858] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:106)
+[12:08:08.858] 	at uk.ac.dundee.computing.aec.TestURL.doGet(TestURL.java:55)
+[12:08:08.858] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:115)
+[12:08:08.858] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:92)
+[12:08:08.858] 	at com.caucho.server.dispatch.ServletFilterChain.doFilter(ServletFilterChain.java:106)
+[12:08:08.858] 	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:173)
+[12:08:08.858] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[12:08:08.858] 	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:274)
+[12:08:08.858] 	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:511)
+[12:08:08.858] 	at com.caucho.util.ThreadPool.runTasks(ThreadPool.java:516)
+[12:08:08.858] 	at com.caucho.util.ThreadPool.run(ThreadPool.java:442)
+[12:08:08.858] 	at java.lang.Thread.run(Thread.java:595)
+/stewarttaylor/TestURI/arequest/
+[12:08:26.951] Compiling _jsp/_displayurl__jsp.java
+[12:11:14.495] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[12:11:14.495] resin-file: destroy
+[12:11:14.495] TestURI: destroy
+[12:24:31.636] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[12:24:31.636] TestURI: init
+/stewarttaylor/TestURI/arequest/
+[12:24:31.667] java.lang.NoClassDefFoundError: uk/ac/dundee/computing/aec/testbean/URLStorage
+[12:24:31.667] 	at java.lang.Class.getDeclaredConstructors0(Native Method)
+[12:24:31.667] 	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2357)
+[12:24:31.667] 	at java.lang.Class.getConstructor0(Class.java:2671)
+[12:24:31.667] 	at java.lang.Class.newInstance0(Class.java:321)
+[12:24:31.667] 	at java.lang.Class.newInstance(Class.java:303)
+[12:24:31.667] 	at com.caucho.jsp.JspManager.preload(JspManager.java:302)
+[12:24:31.667] 	at com.caucho.jsp.JspManager.compile(JspManager.java:210)
+[12:24:31.667] 	at com.caucho.jsp.JspManager.createPage(JspManager.java:177)
+[12:24:31.667] 	at com.caucho.jsp.JspManager.createPage(JspManager.java:157)
+[12:24:31.667] 	at com.caucho.jsp.PageManager.getPage(PageManager.java:248)
+[12:24:31.667] 	at com.caucho.jsp.PageManager.getPage(PageManager.java:166)
+[12:24:31.667] 	at com.caucho.jsp.QServlet.getSubPage(QServlet.java:292)
+[12:24:31.667] 	at com.caucho.jsp.QServlet.getPage(QServlet.java:210)
+[12:24:31.667] 	at com.caucho.server.dispatch.PageFilterChain.compilePage(PageFilterChain.java:206)
+[12:24:31.667] 	at com.caucho.server.dispatch.PageFilterChain.doFilter(PageFilterChain.java:133)
+[12:24:31.667] 	at com.caucho.server.webapp.DispatchFilterChain.doFilter(DispatchFilterChain.java:115)
+[12:24:31.667] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[12:24:31.667] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:277)
+[12:24:31.667] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:106)
+[12:24:31.667] 	at uk.ac.dundee.computing.stewarttaylor.TestURL.doGet(TestURL.java:55)
+[12:24:31.667] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:115)
+[12:24:31.667] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:92)
+[12:24:31.667] 	at com.caucho.server.dispatch.ServletFilterChain.doFilter(ServletFilterChain.java:106)
+[12:24:31.667] 	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:173)
+[12:24:31.667] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[12:24:31.667] 	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:274)
+[12:24:31.667] 	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:511)
+[12:24:31.667] 	at com.caucho.util.ThreadPool.runTasks(ThreadPool.java:516)
+[12:24:31.667] 	at com.caucho.util.ThreadPool.run(ThreadPool.java:442)
+[12:24:31.667] 	at java.lang.Thread.run(Thread.java:595)
+[12:24:31.792] /DisplayURL.jsp:2: Can't find class `uk.ac.dundee.computing.aec.testbean.URLStorage'
+/stewarttaylor/TestURI/arequest/
+[12:25:00.338] java.lang.NoClassDefFoundError: uk/ac/dundee/computing/aec/testbean/URLStorage
+[12:25:00.338] 	at java.lang.Class.getDeclaredConstructors0(Native Method)
+[12:25:00.338] 	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2357)
+[12:25:00.338] 	at java.lang.Class.getConstructor0(Class.java:2671)
+[12:25:00.338] 	at java.lang.Class.newInstance0(Class.java:321)
+[12:25:00.338] 	at java.lang.Class.newInstance(Class.java:303)
+[12:25:00.338] 	at com.caucho.jsp.JspManager.preload(JspManager.java:302)
+[12:25:00.338] 	at com.caucho.jsp.JspManager.compile(JspManager.java:210)
+[12:25:00.338] 	at com.caucho.jsp.JspManager.createPage(JspManager.java:177)
+[12:25:00.338] 	at com.caucho.jsp.JspManager.createPage(JspManager.java:157)
+[12:25:00.338] 	at com.caucho.jsp.PageManager.getPage(PageManager.java:248)
+[12:25:00.338] 	at com.caucho.jsp.PageManager.getPage(PageManager.java:166)
+[12:25:00.338] 	at com.caucho.jsp.QServlet.getSubPage(QServlet.java:292)
+[12:25:00.338] 	at com.caucho.jsp.QServlet.getPage(QServlet.java:210)
+[12:25:00.338] 	at com.caucho.server.dispatch.PageFilterChain.compilePage(PageFilterChain.java:206)
+[12:25:00.338] 	at com.caucho.server.dispatch.PageFilterChain.doFilter(PageFilterChain.java:133)
+[12:25:00.338] 	at com.caucho.server.webapp.DispatchFilterChain.doFilter(DispatchFilterChain.java:115)
+[12:25:00.338] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[12:25:00.338] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:277)
+[12:25:00.338] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:106)
+[12:25:00.338] 	at uk.ac.dundee.computing.stewarttaylor.TestURL.doGet(TestURL.java:55)
+[12:25:00.338] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:115)
+[12:25:00.338] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:92)
+[12:25:00.338] 	at com.caucho.server.dispatch.ServletFilterChain.doFilter(ServletFilterChain.java:106)
+[12:25:00.338] 	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:173)
+[12:25:00.338] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[12:25:00.338] 	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:274)
+[12:25:00.338] 	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:511)
+[12:25:00.338] 	at com.caucho.util.ThreadPool.runTasks(ThreadPool.java:516)
+[12:25:00.338] 	at com.caucho.util.ThreadPool.run(ThreadPool.java:442)
+[12:25:00.338] 	at java.lang.Thread.run(Thread.java:595)
+[12:25:00.354] Compiling _jsp/_displayurl__jsp.java
+/stewarttaylor/TestURI/arequest/
+[12:25:57.525] Compiling _jsp/_displayurl__jsp.java
+/stewarttaylor/TestURI/arequest/test/56
+/stewarttaylor/TestURI/arequest/1234567890
+/stewarttaylor/TestURI/arequest/2222
+/stewarttaylor/TestURI/arequest/34444444
+/stewarttaylor/TestURI/arequest/3456
+[12:30:24.770] resin-file: init
+[12:32:26.861] Compiling uk/ac/dundee/computing/stewarttaylor/userBean/UserStorage.java
+[12:32:27.173] Compiling _jsp/_index__jsp.java
+[12:34:32.015] /index.jsp:89: `userBean' is not a declared bean.  Beans used in <jsp:getProperty> must be declared in a <jsp:useBean>.
+[12:35:31.279] /index.jsp:89: `userBean' is not a declared bean.  Beans used in <jsp:getProperty> must be declared in a <jsp:useBean>.
+[12:36:10.716] Compiling _jsp/_index__jsp.java
+[12:42:51.333] Compiling uk/ac/dundee/computing/stewarttaylor/Controller.java
+[12:42:51.630] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\Controller.java:31: class TestURL is public, should be declared in a file named TestURL.java
+[12:42:51.630] public class TestURL extends HttpServlet {
+[12:42:51.630]        ^
+[12:42:51.630] 1 error
+[12:43:20.005] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[12:43:20.005] resin-file: destroy
+[12:43:20.005] TestURI: destroy
+[12:43:20.145] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[12:43:20.145] TestURI: init
+[12:43:20.176] Compiling uk/ac/dundee/computing/stewarttaylor/Controller.java
+[12:43:20.489] Compiling _jsp/_displayurl__jsp.java
+[12:44:30.019] Compiling uk/ac/dundee/computing/stewarttaylor/Controller.java
+[12:44:30.316] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\Controller.java:51: package uk.ac.dundee.computing.stewarttaylor.userbean does not exist
+[12:44:30.316] 	uk.ac.dundee.computing.stewarttaylor.userbean.UserStorage urlBean=new uk.ac.dundee.computing.stewarttaylor.userbean.UserStorage();
+[12:44:30.316]                                                      ^
+[12:44:30.316] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\Controller.java:51: package uk.ac.dundee.computing.stewarttaylor.userbean does not exist
+[12:44:30.316] 	uk.ac.dundee.computing.stewarttaylor.userbean.UserStorage urlBean=new uk.ac.dundee.computing.stewarttaylor.userbean.UserStorage();
+[12:44:30.316]                                                                                                                            ^
+[12:44:30.316] 2 errors
+[12:44:44.690] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[12:44:44.690] TestURI: destroy
+[12:44:45.237] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[12:44:45.284] Compiling uk/ac/dundee/computing/stewarttaylor/Controller.java
+[12:44:45.581] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\Controller.java:51: package uk.ac.dundee.computing.stewarttaylor.userbean does not exist
+[12:44:45.581] 	uk.ac.dundee.computing.stewarttaylor.userBean.UserStorage urlBean=new uk.ac.dundee.computing.stewarttaylor.userbean.UserStorage();
+[12:44:45.581]                                                                                                                            ^
+[12:44:45.581] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\Controller.java:52: cannot find symbol
+[12:44:45.581] symbol  : method setUrl(java.lang.String)
+[12:44:45.581] location: class uk.ac.dundee.computing.stewarttaylor.userBean.UserStorage
+[12:44:45.581] 	urlBean.setUrl(req.getRequestURI());
+[12:44:45.581]                ^
+[12:44:45.581] 2 errors
+[12:44:47.487] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[12:44:47.737] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[12:44:47.815] Compiling uk/ac/dundee/computing/stewarttaylor/Controller.java
+[12:44:48.112] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\Controller.java:51: package uk.ac.dundee.computing.stewarttaylor.userbean does not exist
+[12:44:48.112] 	uk.ac.dundee.computing.stewarttaylor.userBean.UserStorage urlBean=new uk.ac.dundee.computing.stewarttaylor.userbean.UserStorage();
+[12:44:48.112]                                                                                                                            ^
+[12:44:48.112] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\Controller.java:52: cannot find symbol
+[12:44:48.112] symbol  : method setUrl(java.lang.String)
+[12:44:48.112] location: class uk.ac.dundee.computing.stewarttaylor.userBean.UserStorage
+[12:44:48.112] 	urlBean.setUrl(req.getRequestURI());
+[12:44:48.112]                ^
+[12:44:48.112] 2 errors
+[12:44:52.253] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[12:44:52.409] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[12:44:52.440] Compiling uk/ac/dundee/computing/stewarttaylor/Controller.java
+[12:44:52.768] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\Controller.java:51: package uk.ac.dundee.computing.stewarttaylor.userbean does not exist
+[12:44:52.768] 	uk.ac.dundee.computing.stewarttaylor.userBean.UserStorage urlBean=new uk.ac.dundee.computing.stewarttaylor.userbean.UserStorage();
+[12:44:52.768]                                                                                                                            ^
+[12:44:52.768] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\Controller.java:52: cannot find symbol
+[12:44:52.768] symbol  : method setUrl(java.lang.String)
+[12:44:52.768] location: class uk.ac.dundee.computing.stewarttaylor.userBean.UserStorage
+[12:44:52.768] 	urlBean.setUrl(req.getRequestURI());
+[12:44:52.768]                ^
+[12:44:52.768] 2 errors
+[12:45:08.503] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[12:45:08.643] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[12:45:08.690] Compiling uk/ac/dundee/computing/stewarttaylor/Controller.java
+[12:45:09.003] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\Controller.java:51: package uk.ac.dundee.computing.stewarttaylor.userbean does not exist
+[12:45:09.003] 	uk.ac.dundee.computing.stewarttaylor.userBean.UserStorage urlBean=new uk.ac.dundee.computing.stewarttaylor.userbean.UserStorage();
+[12:45:09.003]                                                                                                                            ^
+[12:45:09.003] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\Controller.java:52: cannot find symbol
+[12:45:09.003] symbol  : method setUrl(java.lang.String)
+[12:45:09.003] location: class uk.ac.dundee.computing.stewarttaylor.userBean.UserStorage
+[12:45:09.003] 	urlBean.setUrl(req.getRequestURI());
+[12:45:09.003]                ^
+[12:45:09.003] 2 errors
+[12:45:11.643] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[12:45:11.799] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[12:45:12.221] Compiling uk/ac/dundee/computing/stewarttaylor/Controller.java
+[12:45:12.518] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\Controller.java:51: package uk.ac.dundee.computing.stewarttaylor.userbean does not exist
+[12:45:12.518] 	uk.ac.dundee.computing.stewarttaylor.userBean.UserStorage urlBean=new uk.ac.dundee.computing.stewarttaylor.userbean.UserStorage();
+[12:45:12.518]                                                                                                                            ^
+[12:45:12.518] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\Controller.java:52: cannot find symbol
+[12:45:12.518] symbol  : method setUrl(java.lang.String)
+[12:45:12.518] location: class uk.ac.dundee.computing.stewarttaylor.userBean.UserStorage
+[12:45:12.518] 	urlBean.setUrl(req.getRequestURI());
+[12:45:12.518]                ^
+[12:45:12.518] 2 errors
+[12:45:34.080] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[12:45:34.236] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[12:45:34.268] Compiling uk/ac/dundee/computing/stewarttaylor/Controller.java
+[12:45:34.580] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\Controller.java:51: package uk.ac.dundee.computing.stewarttaylor.userbean does not exist
+[12:45:34.580] 	uk.ac.dundee.computing.stewarttaylor.userBean.UserStorage urlBean=new uk.ac.dundee.computing.stewarttaylor.userbean.UserStorage();
+[12:45:34.580]                                                                                                                            ^
+[12:45:34.580] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\Controller.java:52: cannot find symbol
+[12:45:34.580] symbol  : method setUrl(java.lang.String)
+[12:45:34.580] location: class uk.ac.dundee.computing.stewarttaylor.userBean.UserStorage
+[12:45:34.580] 	urlBean.setUrl(req.getRequestURI());
+[12:45:34.580]                ^
+[12:45:34.580] 2 errors
+[12:46:09.064] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[12:46:09.220] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[12:46:09.251] Compiling uk/ac/dundee/computing/stewarttaylor/Controller.java
+[12:46:09.548] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\Controller.java:51: package uk.ac.dundee.computing.stewarttaylor.userbean does not exist
+[12:46:09.548] 	uk.ac.dundee.computing.stewarttaylor.userBean.UserStorage urlBean=new uk.ac.dundee.computing.stewarttaylor.userbean.UserStorage();
+[12:46:09.548]                                                                                                                            ^
+[12:46:09.548] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\Controller.java:52: cannot find symbol
+[12:46:09.548] symbol  : method setUrl(java.lang.String)
+[12:46:09.548] location: class uk.ac.dundee.computing.stewarttaylor.userBean.UserStorage
+[12:46:09.548] 	urlBean.setUrl(req.getRequestURI());
+[12:46:09.548]                ^
+[12:46:09.548] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\Controller.java:67: package uk.ac.dundee.computing.stewarttaylor.userbean does not exist
+[12:46:09.548] uk.ac.dundee.computing.stewarttaylor.userBean.UserStorage urlBean=new uk.ac.dundee.computing.stewarttaylor.userbean.UserStorage();
+[12:46:09.548]                                                                                                                    ^
+[12:46:09.548] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\Controller.java:68: cannot find symbol
+[12:46:09.548] symbol  : method setUrl(java.lang.String)
+[12:46:09.548] location: class uk.ac.dundee.computing.stewarttaylor.userBean.UserStorage
+[12:46:09.548] 	urlBean.setUrl(url);
+[12:46:09.548]                ^
+[12:46:09.548] 4 errors
+[12:46:19.501] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[12:46:19.642] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[12:46:19.673] Compiling uk/ac/dundee/computing/stewarttaylor/Controller.java
+[12:46:19.986] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\Controller.java:51: package uk.ac.dundee.computing.stewarttaylor.userbean does not exist
+[12:46:19.986] 	uk.ac.dundee.computing.stewarttaylor.userBean.UserStorage urlBean=new uk.ac.dundee.computing.stewarttaylor.userbean.UserStorage();
+[12:46:19.986]                                                                                                                            ^
+[12:46:19.986] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\Controller.java:52: cannot find symbol
+[12:46:19.986] symbol  : method setUrl(java.lang.String)
+[12:46:19.986] location: class uk.ac.dundee.computing.stewarttaylor.userBean.UserStorage
+[12:46:19.986] 	urlBean.setUrl(req.getRequestURI());
+[12:46:19.986]                ^
+[12:46:19.986] 2 errors
+[12:46:34.001] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[12:46:34.142] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[12:46:34.173] Compiling uk/ac/dundee/computing/stewarttaylor/Controller.java
+[12:46:34.485] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\Controller.java:52: cannot find symbol
+[12:46:34.485] symbol  : method setUrl(java.lang.String)
+[12:46:34.485] location: class uk.ac.dundee.computing.stewarttaylor.userBean.UserStorage
+[12:46:34.485] 	urlBean.setUrl(req.getRequestURI());
+[12:46:34.485]                ^
+[12:46:34.485] 1 error
+[12:47:19.703] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[12:47:19.844] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[12:47:19.891] Compiling uk/ac/dundee/computing/stewarttaylor/Controller.java
+[12:47:20.188] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\Controller.java:52: cannot find symbol
+[12:47:20.188] symbol  : variable userBean
+[12:47:20.188] location: class uk.ac.dundee.computing.stewarttaylor.Controller
+[12:47:20.188] 	userBean.setUrl(req.getRequestURI());
+[12:47:20.188]         ^
+[12:47:20.188] 1 error
+[12:47:30.719] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[12:47:30.859] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[12:47:30.890] Compiling uk/ac/dundee/computing/stewarttaylor/Controller.java
+[12:47:31.203] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\Controller.java:52: cannot find symbol
+[12:47:31.203] symbol  : method setUrl(java.lang.String)
+[12:47:31.203] location: class uk.ac.dundee.computing.stewarttaylor.userBean.UserStorage
+[12:47:31.203] 	userBean.setUrl(req.getRequestURI());
+[12:47:31.203]                 ^
+[12:47:31.203] 1 error
+[12:47:46.984] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[12:47:47.140] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[12:47:47.171] Compiling uk/ac/dundee/computing/stewarttaylor/Controller.java
+[12:47:47.468] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\Controller.java:52: cannot find symbol
+[12:47:47.468] symbol  : method setUrl(java.lang.String)
+[12:47:47.468] location: class uk.ac.dundee.computing.stewarttaylor.userBean.UserStorage
+[12:47:47.468] 	userBean.setUrl(req.getRequestURI());
+[12:47:47.468]                 ^
+[12:47:47.468] 1 error
+[12:48:06.999] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[12:48:07.140] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[12:48:07.171] Compiling uk/ac/dundee/computing/stewarttaylor/Controller.java
+[12:48:07.499] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\Controller.java:52: cannot find symbol
+[12:48:07.499] symbol  : method setUrl(java.lang.String)
+[12:48:07.499] location: class uk.ac.dundee.computing.stewarttaylor.userBean.UserStorage
+[12:48:07.499] 	userBean.setUrl(req.getRequestURI());
+[12:48:07.499]                 ^
+[12:48:07.499] 1 error
+[12:48:47.076] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[12:48:47.217] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[12:48:47.248] Compiling uk/ac/dundee/computing/stewarttaylor/Controller.java
+[12:48:47.561] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\Controller.java:52: cannot find symbol
+[12:48:47.561] symbol  : method setUrl(java.lang.String)
+[12:48:47.561] location: class uk.ac.dundee.computing.stewarttaylor.userBean.UserStorage
+[12:48:47.561] 	userBean.setUrl(req.getRequestURI());
+[12:48:47.561]                 ^
+[12:48:47.561] 1 error
+[12:49:11.435] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[12:49:11.623] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[12:49:11.685] Compiling uk/ac/dundee/computing/stewarttaylor/Controller.java
+[12:49:11.982] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\Controller.java:52: cannot find symbol
+[12:49:11.982] symbol  : method setUrl(java.lang.String)
+[12:49:11.982] location: class uk.ac.dundee.computing.stewarttaylor.userBean.UserStorage
+[12:49:11.982] 	userBean.setUrl(req.getRequestURI());
+[12:49:11.982]                 ^
+[12:49:11.982] 1 error
+[12:49:46.216] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[12:49:46.388] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[12:49:46.435] Compiling uk/ac/dundee/computing/stewarttaylor/Controller.java
+[12:49:46.747] Compiling _jsp/_index__jsp.java
+[12:49:47.153] resin-file: init
+[12:50:14.919] TestURI: init
+/stewarttaylor/TestURI/arequest/
+/stewarttaylor/TestURI/jim/
+[12:54:58.804] Compiling _jsp/_main__jsp.java
+[12:57:03.817] Compiling _jsp/_main__jsp.java
+/stewarttaylor/testURI
+/stewarttaylor/testURI
+[12:57:51.254] Compiling _jsp/_displayurl__jsp.java
+/stewarttaylor/TestURI/arequest/blaaaa
+/stewarttaylor/TestURI/arequest/huhuhuh
+[13:02:05.108] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[13:02:05.108] resin-file: destroy
+[13:02:05.108] TestURI: destroy
+[13:03:19.232] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[13:03:19.232] resin-file: init
+[13:03:41.950] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[13:03:41.950] resin-file: destroy
+[13:03:42.122] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[13:03:42.122] resin-file: init
+[13:03:55.809] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[13:03:55.809] resin-file: destroy
+[13:03:55.950] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[13:03:55.950] resin-file: init
+[13:06:46.165] TestURI: init
+/stewarttaylor/TestURI/arequest/huhuhuh
+/stewarttaylor/TestURI/arequest/
+/stewarttaylor/TestURI/
+/stewarttaylor/TestURI/
+[13:12:41.955] Compiling uk/ac/dundee/computing/stewarttaylor/Controller.java
+[13:12:42.268] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\Controller.java:27: class ControllerServlet is public, should be declared in a file named ControllerServlet.java
+[13:12:42.268] public class ControllerServlet extends HttpServlet {
+[13:12:42.268]        ^
+[13:12:42.268] 1 error
+[13:12:55.252] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[13:12:55.252] resin-file: destroy
+[13:12:55.252] TestURI: destroy
+[13:12:55.392] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[13:12:55.408] Compiling uk/ac/dundee/computing/stewarttaylor/Controller.java
+[13:12:55.705] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\Controller.java:27: class ControllerServlet is public, should be declared in a file named ControllerServlet.java
+[13:12:55.705] public class ControllerServlet extends HttpServlet {
+[13:12:55.705]        ^
+[13:12:55.705] 1 error
+[13:13:09.845] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[13:13:09.986] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[13:13:10.001] Compiling uk/ac/dundee/computing/stewarttaylor/Controller.java
+[13:13:10.658] Compiling _jsp/_loop__jsp.java
+[13:13:41.298] resin-file: init
+[13:16:15.764] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[13:16:15.764] resin-file: destroy
+[13:20:10.275] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[13:20:10.353] resin-file: init
+[13:24:18.754] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[13:24:18.754] resin-file: destroy
+[13:24:18.864] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[13:24:18.864] Controller: init
+[13:26:35.580] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[13:26:35.580] Controller: destroy
+[13:26:35.689] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[13:26:35.689] Controller: init
+[13:26:39.423] resin-file: init
+[13:26:52.329] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[13:26:52.329] resin-file: destroy
+[13:26:52.329] Controller: destroy
+[13:26:52.439] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[13:26:52.439] resin-file: init
+[13:27:08.314] Controller: init
+[13:27:26.673] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[13:27:26.673] resin-file: destroy
+[13:27:26.673] Controller: destroy
+[13:27:26.782] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[13:27:26.782] Controller: init
+[13:27:42.375] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[13:27:42.375] Controller: destroy
+[13:27:42.485] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[13:27:42.485] Controller: init
+[13:32:40.604] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[13:32:40.604] Controller: destroy
+[13:32:40.713] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[13:32:46.885] resin-file: init
+[13:33:12.244] Controller: init
+[13:34:29.696] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[13:34:29.696] resin-file: destroy
+[13:34:29.696] Controller: destroy
+[13:34:29.805] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[13:34:29.805] resin-file: init
+[13:34:36.492] Controller: init
+[13:38:05.676] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[13:38:05.676] resin-file: destroy
+[13:38:05.676] Controller: destroy
+[13:38:05.785] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[13:38:05.785] Controller: init
+[13:47:22.978] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[13:47:22.978] Controller: destroy
+[13:47:23.087] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[13:47:23.087] Controller: init
+[13:49:45.600] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[13:49:45.600] Controller: destroy
+[13:49:45.709] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[13:49:56.553] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[13:49:56.662] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[13:49:56.662] Controller: init
+[15:34:20.198] resin-file: init
+[15:57:37.250] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[15:57:37.250] resin-file: destroy
+[15:57:37.265] Controller: destroy
+[16:03:27.623] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[16:03:50.200] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[16:04:35.760] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[16:04:35.870] resin-file: init
+[16:04:39.949] Controller: init
+[16:04:57.421] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[16:04:57.421] resin-file: destroy
+[16:04:57.421] Controller: destroy
+[16:04:57.578] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[16:04:57.593] Controller: init
+[16:05:17.035] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[16:05:17.035] Controller: destroy
+[16:05:17.144] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[16:05:17.144] resin-file: init
+[16:05:19.223] Controller: init
+[16:05:25.678] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[16:05:25.678] resin-file: destroy
+[16:05:25.678] Controller: destroy
+[16:05:25.787] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[16:05:25.787] Controller: init
+[16:30:52.077] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[16:30:52.077] Controller: destroy
+[16:30:52.186] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[16:30:52.186] resin-file: init
+[16:30:56.780] Controller: init
+[16:31:52.466] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[16:31:52.466] resin-file: destroy
+[16:31:52.466] Controller: destroy
+[16:31:52.576] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[16:31:53.435] Controller: init
+[16:32:05.857] resin-file: init
+[16:37:45.069] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[16:37:45.069] resin-file: destroy
+[16:37:45.069] Controller: destroy
+[16:37:45.178] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[16:37:45.178] Controller: init
+[16:37:48.694] resin-file: init
+[16:39:24.426] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[16:39:24.426] resin-file: destroy
+[16:39:24.426] Controller: destroy
+[16:39:24.536] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[16:39:24.536] Controller: init
+[16:40:02.769] resin-file: init
+[19:59:47.883] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[19:59:47.883] resin-file: destroy
+[19:59:47.883] Controller: destroy
+[19:59:48.055] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[19:59:50.039] Controller: init
+[22:30:06.804] resin-file: init
+[14:31:42.047] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[14:31:42.047] resin-file: destroy
+[14:31:42.047] Controller: destroy
+[14:31:42.235] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[14:31:42.235] TestURI: init
+/stewarttaylor/testuri/wut
+[14:32:23.203] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[14:32:23.203] TestURI: destroy
+[14:32:23.328] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[14:32:23.328] TestURI: init
+/stewarttaylor/test
+[14:33:08.155] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[14:33:08.155] TestURI: destroy
+[14:34:39.091] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[14:34:39.091] TestURI: init
+/stewarttaylor/test
+[14:34:53.716] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[14:34:53.716] TestURI: destroy
+[14:34:53.841] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[14:34:53.841] Controller: init
+/stewarttaylor/test
+[14:35:01.731] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[14:35:01.731] Controller: destroy
+[14:35:01.856] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[14:35:01.856] Controller: init
+servlet started
+/stewarttaylor/test
+/stewarttaylor/test
+/stewarttaylor/test
+/stewarttaylor/test
+/stewarttaylor/test
+/stewarttaylor/test
+/stewarttaylor/test
+[14:36:31.698] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[14:36:31.698] Controller: destroy
+[14:36:32.136] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[14:36:32.136] Controller: init
+servlet started
+/stewarttaylor/test
+[14:36:32.229] Compiling _jsp/_main__jsp.java
+[14:36:32.589] resin-file: init
+[14:37:37.369] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[14:37:37.369] resin-file: destroy
+[14:37:37.369] Controller: destroy
+[14:37:37.478] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[14:37:39.947] Controller: init
+servlet started
+/stewarttaylor/test
+[09:35:40.331] resin-file: init
+/stewarttaylor/test
+[10:28:15.036] Compiling uk/ac/dundee/computing/stewarttaylor/DbConnector.java
+[10:28:15.036] Compiling uk/ac/dundee/computing/stewarttaylor/LoginServlet.java
+[10:28:15.036] Compiling uk/ac/dundee/computing/stewarttaylor/LoginValidator.java
+[10:28:15.192] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\DbConnector.java:38: invalid method declaration; return type required
+[10:28:15.192] 	public DbConnector ()
+[10:28:15.192]                ^
+[10:28:15.192] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\DbConnector.java:69: ';' expected
+[10:28:15.192] 	rs.getString("detail")
+[10:28:15.192]         ^
+[10:28:15.192] 2 errors
+[10:28:28.301] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[10:28:28.301] resin-file: destroy
+[10:28:28.301] Controller: destroy
+[10:28:28.645] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[10:28:30.629] Compiling uk/ac/dundee/computing/stewarttaylor/DbConnector.java
+[10:28:30.629] Compiling uk/ac/dundee/computing/stewarttaylor/LoginServlet.java
+[10:28:30.629] Compiling uk/ac/dundee/computing/stewarttaylor/LoginValidator.java
+[10:28:30.629] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\DbConnector.java:69: ';' expected
+[10:28:30.629] 	rs.getString("detail")
+[10:28:30.629]         ^
+[10:28:30.629] 1 error
+[10:28:50.457] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[10:28:50.551] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[10:28:50.582] Compiling uk/ac/dundee/computing/stewarttaylor/DbConnector.java
+[10:28:50.582] Compiling uk/ac/dundee/computing/stewarttaylor/LoginServlet.java
+[10:28:50.582] Compiling uk/ac/dundee/computing/stewarttaylor/LoginValidator.java
+[10:28:55.160] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\LoginServlet.java:31: class TestURL is public, should be declared in a file named TestURL.java
+[10:28:55.160] public class TestURL extends HttpServlet {
+[10:28:55.160]        ^
+[10:28:55.160] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\DbConnector.java:41: cannot find symbol
+[10:28:55.160] symbol  : variable DriverManager
+[10:28:55.160] location: class uk.ac.dundee.computing.stewarttaylor.DbConnector
+[10:28:55.160] Connection MyConnection= DriverManager.getConnection("jdbc:mysql://arlia.computing.dundee.ac.uk/student200704","student200704","ac31004");
+[10:28:55.160]                          ^
+[10:28:55.160] 2 errors
+[10:29:28.628] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[10:29:28.722] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[10:29:28.738] Compiling uk/ac/dundee/computing/stewarttaylor/DbConnector.java
+[10:29:28.738] Compiling uk/ac/dundee/computing/stewarttaylor/LoginServlet.java
+[10:29:28.738] Compiling uk/ac/dundee/computing/stewarttaylor/LoginValidator.java
+[10:29:29.097] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\LoginServlet.java:31: class TestURL is public, should be declared in a file named TestURL.java
+[10:29:29.097] public class TestURL extends HttpServlet {
+[10:29:29.097]        ^
+[10:29:29.097] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\DbConnector.java:41: cannot find symbol
+[10:29:29.097] symbol  : variable DriverManager
+[10:29:29.097] location: class uk.ac.dundee.computing.stewarttaylor.DbConnector
+[10:29:29.097] Connection MyConnection= DriverManager.getConnection("jdbc:mysql://arlia.computing.dundee.ac.uk/student200704","student200704","ac31004");
+[10:29:29.097]                          ^
+[10:29:29.097] 2 errors
+[10:29:30.378] Compiling uk/ac/dundee/computing/stewarttaylor/DbConnector.java
+[10:29:30.378] Compiling uk/ac/dundee/computing/stewarttaylor/LoginServlet.java
+[10:29:30.378] Compiling uk/ac/dundee/computing/stewarttaylor/LoginValidator.java
+[10:29:30.706] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\LoginServlet.java:31: class TestURL is public, should be declared in a file named TestURL.java
+[10:29:30.706] public class TestURL extends HttpServlet {
+[10:29:30.706]        ^
+[10:29:30.706] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\DbConnector.java:41: cannot find symbol
+[10:29:30.706] symbol  : variable DriverManager
+[10:29:30.706] location: class uk.ac.dundee.computing.stewarttaylor.DbConnector
+[10:29:30.706] Connection MyConnection= DriverManager.getConnection("jdbc:mysql://arlia.computing.dundee.ac.uk/student200704","student200704","ac31004");
+[10:29:30.706]                          ^
+[10:29:30.706] 2 errors
+[10:29:39.347] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[10:29:39.441] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[10:29:39.456] Compiling uk/ac/dundee/computing/stewarttaylor/DbConnector.java
+[10:29:39.456] Compiling uk/ac/dundee/computing/stewarttaylor/LoginServlet.java
+[10:29:39.456] Compiling uk/ac/dundee/computing/stewarttaylor/LoginValidator.java
+[10:29:40.175] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\LoginServlet.java:31: class TestURL is public, should be declared in a file named TestURL.java
+[10:29:40.175] public class TestURL extends HttpServlet {
+[10:29:40.175]        ^
+[10:29:40.175] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\DbConnector.java:41: cannot find symbol
+[10:29:40.175] symbol  : variable DriverManager
+[10:29:40.175] location: class uk.ac.dundee.computing.stewarttaylor.DbConnector
+[10:29:40.175] Connection MyConnection= DriverManager.getConnection("jdbc:mysql://arlia.computing.dundee.ac.uk/student200704","student200704","ac31004");
+[10:29:40.175]                          ^
+[10:29:40.175] 2 errors
+[10:29:54.721] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[10:29:54.815] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[10:29:54.831] Compiling uk/ac/dundee/computing/stewarttaylor/DbConnector.java
+[10:29:54.831] Compiling uk/ac/dundee/computing/stewarttaylor/LoginValidator.java
+[10:29:55.143] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\DbConnector.java:41: cannot find symbol
+[10:29:55.143] symbol  : variable DriverManager
+[10:29:55.143] location: class uk.ac.dundee.computing.stewarttaylor.DbConnector
+[10:29:55.143] Connection MyConnection= DriverManager.getConnection("jdbc:mysql://arlia.computing.dundee.ac.uk/student200704","student200704","ac31004");
+[10:29:55.143]                          ^
+[10:29:55.143] 1 error
+[10:30:40.861] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[10:30:40.955] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[10:30:40.986] Compiling uk/ac/dundee/computing/stewarttaylor/DbConnector.java
+[10:30:40.986] Compiling uk/ac/dundee/computing/stewarttaylor/LoginValidator.java
+[10:30:41.330] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\DbConnector.java:45: unreported exception java.sql.SQLException; must be caught or declared to be thrown
+[10:30:41.330] Connection MyConnection= DriverManager.getConnection("jdbc:mysql://arlia.computing.dundee.ac.uk/student200704","student200704","ac31004");
+[10:30:41.330]                                                     ^
+[10:30:41.330] 1 error
+[10:30:58.861] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[10:30:58.955] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[10:30:58.986] Compiling uk/ac/dundee/computing/stewarttaylor/DbConnector.java
+[10:30:58.986] Compiling uk/ac/dundee/computing/stewarttaylor/LoginValidator.java
+[10:30:59.361] Compiling _jsp/_main__jsp.java
+[10:31:55.610] Compiling _jsp/_main__jsp.java
+Second: com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'stewarttaylor.users' doesn't exist
+[10:32:06.516] Compiling _jsp/_main__jsp.java
+Second: com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Access denied for user 'stewarttaylor'@'%' to database 'student200704'
+[10:32:12.594] Compiling _jsp/_main__jsp.java
+Second: java.sql.SQLException: No database selected
+[10:32:23.625] Compiling _jsp/_main__jsp.java
+Second: com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'stewarttaylor.users' doesn't exist
+[10:32:38.843] Compiling _jsp/_main__jsp.java
+Second: java.sql.SQLException: Column 'summary' not found.
+[10:36:28.292] Compiling _jsp/_main__jsp.java
+Second: java.sql.SQLException: Invalid value for getInt() - 'Stu'
+[10:36:59.776] Compiling _jsp/_main__jsp.java
+[14:15:38.524] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[14:39:15.538] Controller: init
+servlet started
+/stewarttaylor/test
+/stewarttaylor/test
+/stewarttaylor/test
+/stewarttaylor/test
+/stewarttaylor/test
+/stewarttaylor/test
+[20:17:01.548] resin-file: init
+[20:28:08.294] Loading .tld files from global classpath
+[20:28:11.231] Compiling uk/ac/dundee/computing/stewarttaylor/LoginServlet.java
+[20:28:11.231] Compiling uk/ac/dundee/computing/stewarttaylor/LoginValidator.java
+[20:28:12.278] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\LoginValidator.java:41: cannot find symbol
+[20:28:12.278] symbol  : class string
+[20:28:12.278] location: class uk.ac.dundee.computing.stewarttaylor.LoginValidator
+[20:28:12.278] public bool isLoginCorrect(String username , string password)
+[20:28:12.278]                                              ^
+[20:28:12.278] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\LoginValidator.java:41: cannot find symbol
+[20:28:12.278] symbol  : class bool
+[20:28:12.278] location: class uk.ac.dundee.computing.stewarttaylor.LoginValidator
+[20:28:12.278] public bool isLoginCorrect(String username , string password)
+[20:28:12.278]        ^
+[20:28:12.278] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\LoginValidator.java:62: cannot find symbol
+[20:28:12.278] symbol  : class bool
+[20:28:12.278] location: class uk.ac.dundee.computing.stewarttaylor.LoginValidator
+[20:28:12.278] public bool doesUserExist(String username)
+[20:28:12.278]        ^
+[20:28:12.278] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\LoginValidator.java:76: cannot find symbol
+[20:28:12.278] symbol  : class bool
+[20:28:12.278] location: class uk.ac.dundee.computing.stewarttaylor.LoginValidator
+[20:28:12.278] public bool isPasswordCorrect(String password)
+[20:28:12.278]        ^
+[20:28:12.278] 4 errors
+[20:28:30.778] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[20:28:30.778] resin-file: destroy
+[20:28:30.778] Controller: destroy
+[20:28:30.981] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[20:29:16.278] Compiling uk/ac/dundee/computing/stewarttaylor/LoginServlet.java
+[20:29:16.278] Compiling uk/ac/dundee/computing/stewarttaylor/LoginValidator.java
+[20:29:16.747] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\LoginValidator.java:58: missing return statement
+[20:29:16.747] }
+[20:29:16.747] ^
+[20:29:16.747] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\LoginValidator.java:72: missing return statement
+[20:29:16.747] }
+[20:29:16.747] ^
+[20:29:16.747] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\LoginValidator.java:81: missing return statement
+[20:29:16.747] }
+[20:29:16.747] ^
+[20:29:16.747] 3 errors
+[20:29:30.809] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[20:29:30.918] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[20:29:44.090] Compiling uk/ac/dundee/computing/stewarttaylor/LoginValidator.java
+[20:29:44.559] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\LoginValidator.java:58: missing return statement
+[20:29:44.559] }
+[20:29:44.559] ^
+[20:29:44.559] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\LoginValidator.java:72: missing return statement
+[20:29:44.559] }
+[20:29:44.559] ^
+[20:29:44.559] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\LoginValidator.java:81: missing return statement
+[20:29:44.559] }
+[20:29:44.559] ^
+[20:29:44.559] 3 errors
+[20:29:49.528] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[20:29:49.637] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[20:29:49.653] Compiling uk/ac/dundee/computing/stewarttaylor/LoginValidator.java
+[20:29:50.012] d:\www\2012-ac31004\stewarttaylor\WEB-INF\classes\uk\ac\dundee\computing\stewarttaylor\LoginValidator.java:89: cannot return a value from method whose result type is void
+[20:29:50.012] return true;
+[20:29:50.012]        ^
+[20:29:50.012] 1 error
+[20:30:06.481] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[20:30:06.574] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[20:30:06.606] Compiling uk/ac/dundee/computing/stewarttaylor/LoginValidator.java
+[20:30:06.981] Compiling _jsp/_login__jsp.java
+[20:30:10.324] resin-file: init
+[20:31:00.996] Compiling _jsp/_login__jsp.java
+[21:09:46.669] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[21:09:46.669] resin-file: destroy
+[21:09:46.778] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[21:09:46.778] resin-file: init
+[21:10:46.746] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[21:10:46.746] resin-file: destroy
+[21:10:47.324] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[21:10:55.184] Controller: init
+servlet started
+/stewarttaylor/test
+[21:11:01.871] resin-file: init
+/stewarttaylor//test
+[21:19:47.962] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[21:19:47.962] resin-file: destroy
+[21:19:47.962] Controller: destroy
+[21:19:48.430] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[21:23:36.116] resin-file: init
+[21:23:46.194] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[21:23:46.194] resin-file: destroy
+[21:23:46.648] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[21:23:51.335] Controller: init
+servlet started
+/stewarttaylor/test
+[21:24:00.116] resin-file: init
+[21:25:13.897] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[21:25:13.897] resin-file: destroy
+[21:25:13.897] Controller: destroy
+[21:25:14.053] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[21:25:14.053] resin-file: init
+[21:25:16.475] Controller: init
+servlet started
+/stewarttaylor/Login
+[21:25:27.100] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[21:25:27.100] resin-file: destroy
+[21:25:27.100] Controller: destroy
+[21:25:27.225] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[21:25:27.225] LoginServlet: init
+Your user name is null
+Your password is null
+Query: select * from users where username='null' AND password='null'
+Log In failed: An Exception has occurred! java.lang.NullPointerException
+[21:25:38.209] resin-file: init
+[21:26:27.193] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[21:26:27.193] resin-file: destroy
+[21:26:27.193] LoginServlet: destroy
+[21:26:44.537] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[09:27:09.692] resin-file: init
+[13:00:54.181] Controller: init
+servlet started
+/stewarttaylor/test
+[13:02:06.774] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[13:02:06.774] resin-file: destroy
+[13:02:06.774] Controller: destroy
+[13:02:08.493] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[13:02:09.727] resin-file: init
+[13:11:13.486] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[13:12:00.875] resin-file: init
+[13:12:51.421] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[13:12:51.421] resin-file: destroy
+[13:12:53.116] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[13:12:53.131] resin-file: init
+[13:18:53.772] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[13:18:53.772] resin-file: destroy
+[13:18:53.881] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[13:18:53.881] LoginServlet: init
+Your user name is gfgf
+Your password is gfgf
+Query: select * from users where username='gfgf' AND password='gfgf'
+Log In failed: An Exception has occurred! java.lang.NullPointerException
+Your user name is gfgf
+Your password is gfgf
+Query: select * from users where username='gfgf' AND password='gfgf'
+Log In failed: An Exception has occurred! java.lang.NullPointerException
+[13:21:19.098] resin-file: init
+Your user name is gfgf
+Your password is gfgf
+Query: select * from users where username='gfgf' AND password='gfgf'
+Log In failed: An Exception has occurred! java.lang.NullPointerException
+Your user name is jim
+Your password is lolz
+Query: select * from users where username='jim' AND password='lolz'
+Log In failed: An Exception has occurred! java.lang.NullPointerException
+Your user name is stu
+Your password is lolz
+Query: select * from users where username='stu' AND password='lolz'
+Log In failed: An Exception has occurred! java.lang.NullPointerException
+Your user name is stu
+Your password is lulz
+Query: select * from users where username='stu' AND password='lulz'
+Log In failed: An Exception has occurred! java.lang.NullPointerException
+Your user name is Stu
+Your password is lulz
+Query: select * from users where username='Stu' AND password='lulz'
+Log In failed: An Exception has occurred! java.lang.NullPointerException
+Your user name is Stu
+Your password is lulz
+Query: select * from users where username='Stu' AND password='lulz'
+Log In failed: An Exception has occurred! java.lang.NullPointerException
+[13:27:40.539] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[13:27:40.539] resin-file: destroy
+[13:27:40.539] LoginServlet: destroy
+[13:27:40.648] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[13:27:40.648] LoginServlet: init
+[13:27:40.664] Compiling uk/ac/dundee/computing/stewarttaylor/ConnectionManager.java
+[13:27:40.664] Compiling uk/ac/dundee/computing/stewarttaylor/UserDAO.java
+Your user name is Stu
+Your password is lulz
+Query: select * from user where username='Stu' AND password='lulz'
+Log In failed: An Exception has occurred! java.sql.SQLException: Column 'FirstName' not found.
+Your user name is Stu
+Your password is lulz
+Query: select * from user where username='Stu' AND password='lulz'
+Log In failed: An Exception has occurred! java.sql.SQLException: Column 'FirstName' not found.
+Your user name is  Stu
+Your password is lulz
+Query: select * from user where username=' Stu' AND password='lulz'
+Sorry, you are not a registered user! Please sign up first
+Your user name is Stu
+Your password is lulz
+Query: select * from user where username='Stu' AND password='lulz'
+Log In failed: An Exception has occurred! java.sql.SQLException: Column 'FirstName' not found.
+Your user name is Stu
+Your password is lulz
+Query: select * from user where username='Stu' AND password='lulz'
+Log In failed: An Exception has occurred! java.sql.SQLException: Column 'FirstName' not found.
+Your user name is stu
+Your password is lulz
+Query: select * from user where username='stu' AND password='lulz'
+Log In failed: An Exception has occurred! java.sql.SQLException: Column 'FirstName' not found.
+Your user name is stu
+Your password is lulz
+Query: select * from user where username='stu' AND password='lulz'
+Log In failed: An Exception has occurred! java.sql.SQLException: Column 'FirstName' not found.
+Your user name is stu
+Your password is lulz
+Query: select * from user where username='stu' AND password='lulz'
+Log In failed: An Exception has occurred! java.sql.SQLException: Column 'FirstName' not found.
+[13:32:17.220] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] stopping
+[13:32:17.220] LoginServlet: destroy
+[13:32:17.314] WebApp[http://ac31004.computing.dundee.ac.uk/stewarttaylor] starting
+[13:32:17.314] LoginServlet: init
+Your user name is stu
+Your password is lulz
+Query: select * from user where username='stu' AND password='lulz'
+Welcome jim@test.com
+[13:32:17.814] Loading .tld files from global classpath
+[13:32:18.892] Compiling _jsp/_userlogged__jsp.java
+[13:32:18.907] /userLogged.jsp:21: ')' expected
+[13:32:18.907]        UserBean currentUser = (UserBean (session.getAttribute("currentSessionUser"));
+[13:32:18.907]                                                                                     ^
+[13:32:18.907] 1 error
+Your user name is stu
+Your password is lulz
+Query: select * from user where username='stu' AND password='lulz'
+Welcome jim@test.com
+[13:32:57.403] Compiling _jsp/_userlogged__jsp.java
+[13:32:57.919] d:\www\2012-ac31004\stewarttaylor\WEB-INF\work\_jsp\_userlogged__jsp.java:9: package ExamplePackage does not exist
+[13:32:57.919] import ExamplePackage.UserBean;
+[13:32:57.919]                       ^
+[13:32:57.919] /userLogged.jsp:21: cannot find symbol
+[13:32:57.919] symbol  : class UserBean
+[13:32:57.919] location: class _jsp._userlogged__jsp
+[13:32:57.919]        UserBean currentUser = (UserBean (session.getAttribute("currentSessionUser")));
+[13:32:57.919]        ^
+[13:32:57.919] /userLogged.jsp:21: cannot find symbol
+[13:32:57.919] symbol  : method UserBean(java.lang.Object)
+[13:32:57.919] location: class _jsp._userlogged__jsp
+[13:32:57.919]        UserBean currentUser = (UserBean (session.getAttribute("currentSessionUser")));
+[13:32:57.919]                                ^
+[13:32:57.919] 3 errors
+Your user name is stu
+Your password is lulz
+Query: select * from user where username='stu' AND password='lulz'
+Welcome jim@test.com
+[13:34:29.305] Compiling _jsp/_userlogged__jsp.java
+[13:34:29.727] d:\www\2012-ac31004\stewarttaylor\WEB-INF\work\_jsp\_userlogged__jsp.java:9: package uk.ac.dundee.computing.stewartaylor does not exist
+[13:34:29.727] import uk.ac.dundee.computing.stewartaylor.UserBean;
+[13:34:29.727]                                            ^
+[13:34:29.727] /userLogged.jsp:21: cannot find symbol
+[13:34:29.727] symbol  : class UserBean
+[13:34:29.727] location: class _jsp._userlogged__jsp
+[13:34:29.727]        UserBean currentUser = (UserBean (session.getAttribute("currentSessionUser")));
+[13:34:29.727]        ^
+[13:34:29.727] /userLogged.jsp:21: cannot find symbol
+[13:34:29.727] symbol  : method UserBean(java.lang.Object)
+[13:34:29.727] location: class _jsp._userlogged__jsp
+[13:34:29.727]        UserBean currentUser = (UserBean (session.getAttribute("currentSessionUser")));
+[13:34:29.727]                                ^
+[13:34:29.727] 3 errors
+[13:34:35.930] Compiling _jsp/_userlogged__jsp.java
+[13:34:36.383] d:\www\2012-ac31004\stewarttaylor\WEB-INF\work\_jsp\_userlogged__jsp.java:9: package uk.ac.dundee.computing.stewartaylor does not exist
+[13:34:36.383] import uk.ac.dundee.computing.stewartaylor.UserBean;
+[13:34:36.383]                                            ^
+[13:34:36.383] /userLogged.jsp:21: cannot find symbol
+[13:34:36.383] symbol  : class UserBean
+[13:34:36.383] location: class _jsp._userlogged__jsp
+[13:34:36.383]        UserBean currentUser = (UserBean (session.getAttribute("currentSessionUser")));
+[13:34:36.383]        ^
+[13:34:36.383] /userLogged.jsp:21: cannot find symbol
+[13:34:36.383] symbol  : method UserBean(java.lang.Object)
+[13:34:36.383] location: class _jsp._userlogged__jsp
+[13:34:36.383]        UserBean currentUser = (UserBean (session.getAttribute("currentSessionUser")));
+[13:34:36.383]                                ^
+[13:34:36.383] 3 errors
+Your user name is stu
+Your password is lulz
+Query: select * from user where username='stu' AND password='lulz'
+Welcome jim@test.com
+[13:34:39.180] Compiling _jsp/_userlogged__jsp.java
+[13:34:39.571] d:\www\2012-ac31004\stewarttaylor\WEB-INF\work\_jsp\_userlogged__jsp.java:9: package uk.ac.dundee.computing.stewartaylor does not exist
+[13:34:39.571] import uk.ac.dundee.computing.stewartaylor.UserBean;
+[13:34:39.571]                                            ^
+[13:34:39.571] /userLogged.jsp:21: cannot find symbol
+[13:34:39.571] symbol  : class UserBean
+[13:34:39.571] location: class _jsp._userlogged__jsp
+[13:34:39.571]        UserBean currentUser = (UserBean (session.getAttribute("currentSessionUser")));
+[13:34:39.571]        ^
+[13:34:39.571] /userLogged.jsp:21: cannot find symbol
+[13:34:39.571] symbol  : method UserBean(java.lang.Object)
+[13:34:39.571] location: class _jsp._userlogged__jsp
+[13:34:39.571]        UserBean currentUser = (UserBean (session.getAttribute("currentSessionUser")));
+[13:34:39.571]                                ^
+[13:34:39.571] 3 errors
+[13:34:59.164] /userLogged.jsp:1: `class' is an unknown JSP page directive attribute.  See the JSP documentation for a complete list of page directive attributes.
+[13:35:00.179] /userLogged.jsp:1: `class' is an unknown JSP page directive attribute.  See the JSP documentation for a complete list of page directive attributes.
+[13:36:21.005] /userLogged.jsp:8: Can't find class `uk.ac.dundee.computing.stewartaylor.UserBean'
+[13:36:47.457] /userLogged.jsp:4: Can't find class `uk.ac.dundee.computing.stewartaylor.UserBean'
+[13:36:48.332] /userLogged.jsp:4: Can't find class `uk.ac.dundee.computing.stewartaylor.UserBean'
+[13:37:31.487] /userLogged.jsp:4: <jsp:useBean> expects an `id' attribute.  id specifies the variable name for the bean.
+[13:37:38.846] /userLogged.jsp:4: Can't find class `uk.ac.dundee.computing.stewartaylor.UserBean'
+[13:37:51.377] Compiling _jsp/_userlogged__jsp.java
+[13:37:51.783] /userLogged.jsp:23: cannot find symbol
+[13:37:51.783] symbol  : class UserBean
+[13:37:51.783] location: class _jsp._userlogged__jsp
+[13:37:51.783]        UserBean currentUser = (UserBean (session.getAttribute("currentSessionUser")));
+[13:37:51.783]        ^
+[13:37:51.783] /userLogged.jsp:23: cannot find symbol
+[13:37:51.783] symbol  : method UserBean(java.lang.Object)
+[13:37:51.783] location: class _jsp._userlogged__jsp
+[13:37:51.783]        UserBean currentUser = (UserBean (session.getAttribute("currentSessionUser")));
+[13:37:51.783]                                ^
+[13:37:51.783] 2 errors
+[13:38:32.501] Compiling _jsp/_userlogged__jsp.java
+[13:38:32.892] /userLogged.jsp:22: cannot find symbol
+[13:38:32.892] symbol  : class UserBean
+[13:38:32.892] location: class _jsp._userlogged__jsp
+[13:38:32.892]        UserBean currentUser = (UserBean (session.getAttribute("currentSessionUser")));
+[13:38:32.892]        ^
+[13:38:32.892] /userLogged.jsp:22: cannot find symbol
+[13:38:32.892] symbol  : method UserBean(java.lang.Object)
+[13:38:32.892] location: class _jsp._userlogged__jsp
+[13:38:32.892]        UserBean currentUser = (UserBean (session.getAttribute("currentSessionUser")));
+[13:38:32.892]                                ^
+[13:38:32.892] 2 errors
+[13:38:46.892] Compiling _jsp/_userlogged__jsp.java
+[13:38:47.267] /userLogged.jsp:22: cannot find symbol
+[13:38:47.267] symbol  : class UserBean
+[13:38:47.267] location: class _jsp._userlogged__jsp
+[13:38:47.267]        UserBean currentUser = UserBean (session.getAttribute("currentSessionUser"));
+[13:38:47.267]        ^
+[13:38:47.267] /userLogged.jsp:22: cannot find symbol
+[13:38:47.267] symbol  : method UserBean(java.lang.Object)
+[13:38:47.267] location: class _jsp._userlogged__jsp
+[13:38:47.267]        UserBean currentUser = UserBean (session.getAttribute("currentSessionUser"));
+[13:38:47.267]                               ^
+[13:38:47.267] 2 errors
+[13:39:11.016] Compiling _jsp/_userlogged__jsp.java
+[13:39:11.407] /userLogged.jsp:22: cannot find symbol
+[13:39:11.407] symbol  : class UserBean
+[13:39:11.407] location: class _jsp._userlogged__jsp
+[13:39:11.407]        UserBean currentUser = UserBean (session.getAttribute("currentSessionUser"));
+[13:39:11.407]        ^
+[13:39:11.407] /userLogged.jsp:22: cannot find symbol
+[13:39:11.407] symbol  : method UserBean(java.lang.Object)
+[13:39:11.407] location: class _jsp._userlogged__jsp
+[13:39:11.407]        UserBean currentUser = UserBean (session.getAttribute("currentSessionUser"));
+[13:39:11.407]                               ^
+[13:39:11.407] 2 errors
+[13:39:25.094] Compiling _jsp/_userlogged__jsp.java
+[13:39:25.141] /userLogged.jsp:21: ')' expected
+[13:39:25.141]        UserBean currentUser = (UserBean (session.getAttribute("currentSessionUser"));
+[13:39:25.141]                                                                                     ^
+[13:39:25.141] 1 error
+[13:39:55.719] Compiling _jsp/_userlogged__jsp.java
+[13:39:56.110] /userLogged.jsp:22: cannot find symbol
+[13:39:56.110] symbol  : method UserBean(java.lang.Object)
+[13:39:56.110] location: class _jsp._userlogged__jsp
+[13:39:56.110]        UserBean currentUser = (UserBean (session.getAttribute("currentSessionUser")));
+[13:39:56.110]                                ^
+[13:39:56.110] 1 error
+[13:46:35.812] Compiling _jsp/_userlogged__jsp.java
+[13:46:36.203] /userLogged.jsp:22: cannot find symbol
+[13:46:36.203] symbol  : method UserBean(java.lang.Object)
+[13:46:36.203] location: class _jsp._userlogged__jsp
+[13:46:36.203]        UserBean currentUser = (UserBean (session.getAttribute("currentSessionUser")));
+[13:46:36.203]                                ^
+[13:46:36.203] 1 error
+[13:49:32.328] Compiling _jsp/_userlogged__jsp.java
+[13:49:32.703] /userLogged.jsp:22: cannot find symbol
+[13:49:32.703] symbol  : method UserBean(java.lang.Object)
+[13:49:32.703] location: class _jsp._userlogged__jsp
+[13:49:32.703]        UserBean currentUser = (UserBean (session.getAttribute("currentSessionUser")));
+[13:49:32.703]                                ^
+[13:49:32.703] 1 error
+[13:51:07.212] Compiling _jsp/_userlogged__jsp.java
+[13:51:07.619] /userLogged.jsp:22: cannot find symbol
+[13:51:07.619] symbol  : method UserBean(java.lang.Object)
+[13:51:07.619] location: class _jsp._userlogged__jsp
+[13:51:07.619]        UserBean currentUser = (UserBean (session.getAttribute("currentSessionUser")));
+[13:51:07.619]                                ^
+[13:51:07.619] 1 error
+[13:54:05.423] Compiling _jsp/_userlogged__jsp.java
+[13:54:05.814] /userLogged.jsp:22: cannot find symbol
+[13:54:05.814] symbol  : method UserBean(java.lang.Object)
+[13:54:05.814] location: class _jsp._userlogged__jsp
+[13:54:05.814]        UserBean currentUser = (UserBean (session.getAttribute("currentSessionUser")));
+[13:54:05.814]                                ^
+[13:54:05.814] 1 error
