@@ -191,7 +191,7 @@ try
     com.caucho.vfs.Depend depend;
     depend = new com.caucho.vfs.Depend(appDir.lookup("newsfeed.jsp"), 8140565799101436904L, false);
     com.caucho.jsp.JavaPage.addDepend(_caucho_depends, depend);
-    depend = new com.caucho.vfs.Depend(appDir.lookup("parts/header.jsp"), 4882967369600160189L, false);
+    depend = new com.caucho.vfs.Depend(appDir.lookup("parts/header.jsp"), -3967840264272611628L, false);
     com.caucho.jsp.JavaPage.addDepend(_caucho_depends, depend);
     depend = new com.caucho.vfs.Depend(appDir.lookup("parts/messageBox.jsp"), 4695996236894547340L, false);
     com.caucho.jsp.JavaPage.addDepend(_caucho_depends, depend);
@@ -199,6 +199,7 @@ try
     com.caucho.jsp.JavaPage.addDepend(_caucho_depends, depend);
   }
 
+  private final static char []_jsp_string1;
   private final static char []_jsp_string3;
   private final static char []_jsp_string0;
   private final static char []_jsp_string2;
@@ -207,7 +208,6 @@ try
   private final static char []_jsp_string8;
   private final static char []_jsp_string11;
   private final static char []_jsp_string12;
-  private final static char []_jsp_string1;
   private final static char []_jsp_string10;
   private final static char []_jsp_string7;
   private final static char []_jsp_string4;
@@ -215,6 +215,7 @@ try
   private final static char []_jsp_string14;
   private final static char []_jsp_string9;
   static {
+    _jsp_string1 = "\r\n\r\n	<div id=\"header\">\r\n    	\r\n		<div id = \"logobox\">\r\n			<a href=\"/stewarttaylor/newsfeed\" >\r\n			<img src=\"/stewarttaylor/Images/Logo.png\" alt=\"Logo\" />\r\n			</a>\r\n		</div>\r\n		\r\n		\r\n		\r\n		\r\n		<div id = \"searchbar\">\r\n				<form name=\"search\" action=\"/stewarttaylor/search/\" method=\"get\" >\r\n					 <input type=\"text\" name=\"search\" />\r\n					<input type=\"submit\"   class=\"btn2\" value=\"Search\" />\r\n				</form>\r\n		</div>\r\n		\r\n		\r\n		\r\n		\r\n				<div id = \"Profilebox\">\r\n\r\n	\r\n		<div class=\"hbuttons\">\r\n			<a href=\"/stewarttaylor/profile/\r\n			\r\n			".toCharArray();
     _jsp_string3 = " </a> \r\n\r\n			<a href=\"/stewarttaylor/newsfeed\">Home </a> \r\n\r\n			<a href=\"/stewarttaylor/Logout\">Logout </a> \r\n\r\n			</div>\r\n\r\n		</div>\r\n\r\n\r\n		</div>\r\n\r\n\r\n\r\n\r\n		\r\n		\r\n			\r\n	\r\n		\r\n		\r\n		\r\n		\r\n		\r\n\r\n \r\n    \r\n    \r\n	\r\n  \r\n    \r\n    <div id=\"content\">\r\n    \r\n	\r\n\r\n	\r\n	\r\n	<div id=\"middle_content\">\r\n	\r\n\r\n	\r\n	\r\n	\r\n		\r\n	<script language = \"Javascript\">\r\nmaxL=140;\r\nvar bName = navigator.appName;\r\nfunction taLimit(taObj) {\r\n	if (taObj.value.length==maxL) return false;\r\n	return true;\r\n}\r\n\r\nfunction taCount(taObj,Cnt) { \r\n	objCnt=createObject(Cnt);\r\n	objVal=taObj.value;\r\n	if (objVal.length>maxL) objVal=objVal.substring(0,maxL);\r\n	if (objCnt) {\r\n		if(bName == \"Netscape\"){	\r\n			objCnt.textContent=maxL-objVal.length;}\r\n		else{objCnt.innerText=maxL-objVal.length;}\r\n	}\r\n	return true;\r\n}\r\nfunction createObject(objId) {\r\n	if (document.getElementById) return document.getElementById(objId);\r\n	else if (document.layers) return eval(\"document.\" + objId);\r\n	else if (document.all) return eval(\"document.all.\" + objId);\r\n	else return eval(\"document.\" + objId);\r\n}\r\n</script>\r\n	\r\n	\r\n	\r\n	\r\n	<div id=\"createMessageBox\">\r\n	 \r\n	\r\n	\r\n	\r\n	<div id=\"messageWriteBox\">\r\n	 <h2>What's on your mind?</h2>\r\n	<form name=\"login\" action=\"/stewarttaylor/post\" >\r\n	\r\n	<textarea onKeyPress=\"return taLimit(this)\" onKeyUp=\"return taCount(this,'myCounter')\" name=\"msg\" class =\"tb4\" cols=\"30\" rows=\"5\"></textarea>\r\n	<p><SPAN id=myCounter>140</SPAN></B> characters remaining</p>\r\n	<input type=\"submit\"   class=\"btn2\" value=\"Post\" />\r\n	</form>\r\n	\r\n	</div>\r\n	\r\n	</div>\r\n\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	\r\n\r\n	\r\n	\r\n	 <div id=\"mainnewsbox\">\r\n	        <h2>News Feed </h2>\r\n       \r\n\r\n	   \r\n\r\n\r\n	   \r\n	   	\r\n		".toCharArray();
     _jsp_string0 = "\r\n\r\n	\r\n\r\n	\r\n	\r\n	\r\n	\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<!DOCTYPE html>\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n\r\n<head>\r\n\r\n	<meta charset=\"utf-8\" />\r\n\r\n	<!--[if IE]><script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script><![endif]-->\r\n\r\n	<title> </title>\r\n\r\n	<meta name=\"keywords\" content=\"\" />\r\n\r\n	<meta name=\"description\" content=\"\" />\r\n\r\n	<link rel=\"stylesheet\" href=\"/stewarttaylor/style.css\" type=\"text/css\" media=\"screen, projection\" />\r\n\r\n</head>\r\n\r\n\r\n\r\n<body>\r\n\r\n\r\n\r\n\r\n\r\n\r\n<div id=\"wrapper\">\r\n	\r\n	\r\n	\r\n	\r\n".toCharArray();
     _jsp_string2 = "\r\n			\r\n			\"> \r\n			\r\n			".toCharArray();
@@ -223,7 +224,6 @@ try
     _jsp_string8 = "</p>\r\n		   \r\n		   \r\n		   ".toCharArray();
     _jsp_string11 = "\r\n		   \r\n		   \r\n		  <!-- <a href=\"deletemessage/12\">Delete </a> -->\r\n		   </div>\r\n		   \r\n			<div id=\"msgImage\">\r\n				<img src=\"".toCharArray();
     _jsp_string12 = "\" alt=\"Avatar\" />\r\n		   </div>\r\n		   \r\n		   \r\n		   <div id=\"msgText\">\r\n		   <p><xmp>".toCharArray();
-    _jsp_string1 = "\r\n\r\n	<div id=\"header\">\r\n    	\r\n		<div id = \"logobox\">\r\n			<img src=\"/stewarttaylor/Images/Logo.png\" alt=\"Logo\" />\r\n		</div>\r\n		\r\n		\r\n		\r\n		\r\n		<div id = \"searchbar\">\r\n				<form name=\"search\" action=\"/stewarttaylor/search/\" method=\"get\" >\r\n					 <input type=\"text\" name=\"search\" />\r\n					<input type=\"submit\"   class=\"btn2\" value=\"Search\" />\r\n				</form>\r\n		</div>\r\n		\r\n		\r\n		\r\n		\r\n				<div id = \"Profilebox\">\r\n\r\n	\r\n		<div class=\"hbuttons\">\r\n			<a href=\"/stewarttaylor/profile/\r\n			\r\n			".toCharArray();
     _jsp_string10 = "\">Delete </a>\r\n			   \r\n			   ".toCharArray();
     _jsp_string7 = "</a>\r\n		   </div>\r\n		  \r\n		  <div id=\"msgTime\">\r\n		   <p>".toCharArray();
     _jsp_string4 = "\r\n	\r\n	\r\n	   ".toCharArray();

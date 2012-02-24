@@ -116,18 +116,18 @@ public class _editprofile__jsp extends com.caucho.jsp.JavaPage{
     com.caucho.vfs.Depend depend;
     depend = new com.caucho.vfs.Depend(appDir.lookup("editprofile.jsp"), -1420942517869993020L, false);
     com.caucho.jsp.JavaPage.addDepend(_caucho_depends, depend);
-    depend = new com.caucho.vfs.Depend(appDir.lookup("parts/header.jsp"), 4882967369600160189L, false);
+    depend = new com.caucho.vfs.Depend(appDir.lookup("parts/header.jsp"), -3967840264272611628L, false);
     com.caucho.jsp.JavaPage.addDepend(_caucho_depends, depend);
   }
 
+  private final static char []_jsp_string1;
   private final static char []_jsp_string3;
   private final static char []_jsp_string2;
   private final static char []_jsp_string0;
-  private final static char []_jsp_string1;
   static {
+    _jsp_string1 = "\r\n\r\n	<div id=\"header\">\r\n    	\r\n		<div id = \"logobox\">\r\n			<a href=\"/stewarttaylor/newsfeed\" >\r\n			<img src=\"/stewarttaylor/Images/Logo.png\" alt=\"Logo\" />\r\n			</a>\r\n		</div>\r\n		\r\n		\r\n		\r\n		\r\n		<div id = \"searchbar\">\r\n				<form name=\"search\" action=\"/stewarttaylor/search/\" method=\"get\" >\r\n					 <input type=\"text\" name=\"search\" />\r\n					<input type=\"submit\"   class=\"btn2\" value=\"Search\" />\r\n				</form>\r\n		</div>\r\n		\r\n		\r\n		\r\n		\r\n				<div id = \"Profilebox\">\r\n\r\n	\r\n		<div class=\"hbuttons\">\r\n			<a href=\"/stewarttaylor/profile/\r\n			\r\n			".toCharArray();
     _jsp_string3 = " </a> \r\n\r\n			<a href=\"/stewarttaylor/newsfeed\">Home </a> \r\n\r\n			<a href=\"/stewarttaylor/Logout\">Logout </a> \r\n\r\n			</div>\r\n\r\n		</div>\r\n\r\n\r\n		</div>\r\n\r\n\r\n\r\n					\r\n					\r\n			<div id=\"content\">\r\n				\r\n				\r\n				<div id = \"middle_content\">\r\n				\r\n						<div id=\"signup_box\">\r\n						\r\n							<h4>Edit Profile</h4>\r\n							\r\n							<form name=\"register\" action=\"/stewarttaylor/editprofile\" method=\"Post\">\r\n							\r\n								<div id=\"signup_item\">\r\n									Email  <input type=\"text\"  class =\"tb3\" name=\"email\" maxlength=\"30\" />\r\n								</div>\r\n								\r\n								<div id=\"signup_item\">\r\n									Old Password  <input type=\"password\"  class =\"tb3\" name=\"password\" maxlength=\"30\" />\r\n								</div>\r\n											\r\n								<div id=\"signup_item\">\r\n									New Password  <input type=\"password\"  class =\"tb3\" name=\"password2\" maxlength=\"30\" />\r\n								</div>\r\n									\r\n								<div id=\"signup_item\">\r\n									Image Link  <input type=\"text\"  class =\"tb3\" name=\"image\"  />\r\n								</div>\r\n						\r\n								<input type=\"submit\" class=\"btn1\" value=\"Confirm Changes\" />\r\n							\r\n							</form>\r\n						\r\n						</div>\r\n				</div>\r\n				\r\n				\r\n				\r\n			</div><!--end of middle content-->\r\n\r\n\r\n			<div style=\"clear: both;\">\r\n			</div><!-- #content-->\r\n\r\n				<footer id=\"footer\">\r\n\r\n					<p>Created By Stewart Taylor</p>\r\n\r\n				</footer><!-- #footer -->\r\n\r\n			</div><!-- #wrapper -->\r\n\r\n\r\n	</body>\r\n</html>".toCharArray();
     _jsp_string2 = "\r\n			\r\n			\"> \r\n			\r\n			".toCharArray();
     _jsp_string0 = "\r\n\r\n\r\n<!DOCTYPE html>\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n\r\n	<head>\r\n		<meta charset=\"utf-8\" />\r\n		<!--[if IE]><script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script><![endif]-->\r\n		<title> </title>\r\n		<meta name=\"keywords\" content=\"\" />\r\n		<meta name=\"description\" content=\"\" />\r\n		<link rel=\"stylesheet\" href=\"/stewarttaylor/style.css\" type=\"text/css\" media=\"screen, projection\" />\r\n	</head>\r\n\r\n	<body>\r\n\r\n			<div id=\"wrapper\">\r\n					\r\n				".toCharArray();
-    _jsp_string1 = "\r\n\r\n	<div id=\"header\">\r\n    	\r\n		<div id = \"logobox\">\r\n			<img src=\"/stewarttaylor/Images/Logo.png\" alt=\"Logo\" />\r\n		</div>\r\n		\r\n		\r\n		\r\n		\r\n		<div id = \"searchbar\">\r\n				<form name=\"search\" action=\"/stewarttaylor/search/\" method=\"get\" >\r\n					 <input type=\"text\" name=\"search\" />\r\n					<input type=\"submit\"   class=\"btn2\" value=\"Search\" />\r\n				</form>\r\n		</div>\r\n		\r\n		\r\n		\r\n		\r\n				<div id = \"Profilebox\">\r\n\r\n	\r\n		<div class=\"hbuttons\">\r\n			<a href=\"/stewarttaylor/profile/\r\n			\r\n			".toCharArray();
   }
 }

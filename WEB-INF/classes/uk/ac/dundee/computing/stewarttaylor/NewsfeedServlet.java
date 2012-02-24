@@ -11,6 +11,8 @@ import javax.servlet.RequestDispatcher;
 import java.util.*;
 import java.sql.*;
 
+
+
 public class NewsfeedServlet extends HttpServlet
  {
 
@@ -90,7 +92,7 @@ public class NewsfeedServlet extends HttpServlet
 							ids[i] = rs.getInt("message_id");
 							msgs[i] = rs.getString("message_text");
 							images[i] = rs.getString("image_link");
-							dates[i] = formatDate(rs.getString("date"));
+							dates[i] = DateDisplay.formatDate(rs.getString("date"));
 							
 							//check for id
 							if( rs.getInt("user.user_id") == userID)
@@ -124,13 +126,7 @@ public class NewsfeedServlet extends HttpServlet
 		}
 		
 		
-		private String formatDate(String date)
-		{
-		
-			date = date.substring(0,10);
-		
-		return date;
-		}
+
 		
 	
 }

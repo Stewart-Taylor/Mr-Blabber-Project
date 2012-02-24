@@ -83,7 +83,7 @@ public class MainServlet extends HttpServlet
 							ids[i] = rs.getInt("message_id");
 							msgs[i] = rs.getString("message_text");
 							images[i] = rs.getString("image_link");
-							dates[i] = formatDate(rs.getString("date"));
+							dates[i] = DateDisplay.formatDate(rs.getString("date"));
 							
 							deletes[i] = false;
 							
@@ -109,13 +109,7 @@ public class MainServlet extends HttpServlet
 		}
 		
 		
-		private String formatDate(String date)
-		{
-		
-			date = date.substring(0,10);
-		
-		return date;
-		}
+
 		
 	
 }

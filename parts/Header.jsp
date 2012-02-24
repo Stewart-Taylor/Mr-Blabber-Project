@@ -6,7 +6,9 @@
 	<div id="header">
     	
 		<div id = "logobox">
+			<a href="/stewarttaylor/newsfeed" >
 			<img src="/stewarttaylor/Images/Logo.png" alt="Logo" />
+			</a>
 		</div>
 		
 		
