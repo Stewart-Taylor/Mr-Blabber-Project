@@ -14,95 +14,86 @@ import java.sql.*;
 
 
 public class UnFollowServlet extends HttpServlet
- {
+{
 
+    static Connection currentCon = null;
+    static ResultSet rs = null;  
+	Statement stmt = null; 
 
-      static Connection currentCon = null;
-      static ResultSet rs = null;  
-	  Statement stmt = null; 
+	public void doGet(HttpServletRequest req, HttpServletResponse res)  throws ServletException, java.io.IOException
+	{
 
-		public void doGet(HttpServletRequest req, HttpServletResponse res)  throws ServletException, java.io.IOException
-		 {
-
-					    HttpSession session = req.getSession(true);
-					   
-					   if(null == session.getAttribute("userBean"))
-					   {  
-							res.sendRedirect("/stewarttaylor/index.jsp");
-					   }
+		HttpSession session = req.getSession(true);			   
+		if(null == session.getAttribute("userBean"))
+		{  
+			res.sendRedirect("/stewarttaylor/index.jsp");
+		}
 					   
 					   
-						String profileName = req.getRequestURI();
+		String profileName = req.getRequestURI();
  
-					 // Extract part after unfollow/
-					  if( profileName.length() > 24)
-					  {
-									profileName =  profileName.substring(24);
+		// Extract part after unfollow/
+		if( profileName.length() > 24)
+		{
+			profileName =  profileName.substring(24);
 							   
 			
-									//Extract ID
-							UserBean userBean = (UserBean)session.getAttribute("userBean");
-							  try
-							  {
-										int id = userBean.getUser_id();
-
-										int fID = getID(profileName);
+			//Extract ID
+			UserBean userBean = (UserBean)session.getAttribute("userBean");
+			try
+			{
+				int id = userBean.getUser_id();
+				int fID = getID(profileName);
 											
-									if(( fID != -1) &&  (fID != id) )
-									{
-												unFollow( fID, id ,res);	
-									}
-							}
-							catch(Exception e)
-							{
-							 //res.sendRedirect("/stewarttaylor/newsfeed/error");
-							}
-					}
+				if(( fID != -1) &&  (fID != id) )
+				{
+					unFollow( fID, id ,res);	
+				}
+			}
+			catch(Exception e)
+			{
+				
+			}
+		}
 					   
-					 //Send Back to the profile Page
-					 res.sendRedirect("/stewarttaylor/profile/" + profileName);
-		 }
+		//Send Back to the profile Page
+		res.sendRedirect("/stewarttaylor/profile/" + profileName);
+	}
 					   
 
-		
-		
-   
-   
-		   private int getID(String name)
-		   {
-					int id= -1;
+
+	private int getID(String name)
+	{
+		int id= -1;
 		   
-					String searchQuery =   "select * from user where username='" + name + "'" ;
+		String searchQuery =   "select * from user where username='" + name + "'" ;
 						  
-			  try 
-			  {
-				 //connect to DB 
-				 currentCon = ConnectionManager.getConnection();
-				 stmt=currentCon.createStatement();
-				 rs = stmt.executeQuery(searchQuery);	        
-				 boolean more = rs.next();
+		try 
+		{
+			//connect to DB 
+			currentCon = ConnectionManager.getConnection();
+			stmt=currentCon.createStatement();
+			rs = stmt.executeQuery(searchQuery);	        
+			boolean more = rs.next();
 				   
 			
-					 if (!more) 
-					 {
-						// USER DOES NOT EXIST
-						 id = -1;
-					 } 
-						
-				   
-					 else if (more) 
-					 {
-						 id =  rs.getInt("user_id"); // Fetch ID
-					 }
-			  } 
-			  catch (Exception ex) 
-			  {
-					System.out.println("Log In failed: An Exception has occurred! " + ex);
-			  } 
+			if (!more) 
+			{
+				id = -1;
+			} 
+			else if (more) 
+			{
+				id =  rs.getInt("user_id"); // Fetch ID
+			}
+		} 
+		catch (Exception ex) 
+		{
+			System.out.println("Log In failed: An Exception has occurred! " + ex);
+		} 
 				
-			  //some exception handling
-			  finally 
-			  {
+		//some exception handling
+		finally 
+		{
 				 if (rs != null)	{
 					try {
 					   rs.close();
@@ -122,36 +113,32 @@ public class UnFollowServlet extends HttpServlet
 					}
 					currentCon = null;
 				 }
-			  }				  
+		}				  
 		   
-		   return id;
-		   
-		  }
+		return id;  
+	}
    
    
-
 	   private void unFollow(int id_Followed , int id_follower , HttpServletResponse res)
 	   {
-				String query = "DELETE FROM follow WHERE user_id = " + id_Followed + " and followed_id = " + id_follower ;
+			String query = "DELETE FROM follow WHERE user_id = " + id_Followed + " and followed_id = " + id_follower ;
 
-				Connection currentCon2 = null;
-				ResultSet rs2 = null;  
-				Statement stmt2 = null; 
+			Connection currentCon2 = null;
+			ResultSet rs2 = null;  
+			Statement stmt2 = null; 
 		 
-			 try 
-			 {
-
-				 //connect to DB 
-				 currentCon2 = ConnectionManager.getConnection();
-				 stmt2=currentCon2.createStatement();
+			try 
+			{
+				//connect to DB 
+				currentCon2 = ConnectionManager.getConnection();
+				stmt2=currentCon2.createStatement();
 				stmt2.executeUpdate(query);	        
 			} 
-		  catch (Exception ex) 
-		  {
+		    catch (Exception ex) 
+			{
 				System.out.println("NO UNFOLLOW MADE! :  " + ex);
-		  } 
+			} 
 
-		  
 		 finally 
 		  {
 			 if (rs2 != null)	{
@@ -175,11 +162,7 @@ public class UnFollowServlet extends HttpServlet
 				currentCon2 = null;
 			 }
 		  }
-	   
-	   
-	   
+
 	}
-	
-	
-  
+
 }

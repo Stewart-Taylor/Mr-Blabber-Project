@@ -8,16 +8,12 @@ import java.sql.*;
    {
      
 	 static Connection currentCon = null;
-      static ResultSet rs = null;  
-	
+     static ResultSet rs = null;  
 	
 	
       public static UserBean login(UserBean bean) 
 	  {
-	
-         //Statement stmt = null;
-
-		PreparedStatement stmt = null;		 
+		 PreparedStatement stmt = null;		 
 	
          String username = bean.getUsername();    
          String password = bean.getPassword();   
@@ -27,13 +23,10 @@ import java.sql.*;
 		  try 
 		  {
 	
-			 //connect to DB 
-			 currentCon = ConnectionManager.getConnection();
-			 //stmt=currentCon.createStatement();
-			 //rs = stmt.executeQuery(searchQuery);	 
+			currentCon = ConnectionManager.getConnection();  //connect to DB 
 
 			currentCon.setAutoCommit(false);
-			 stmt =  currentCon.prepareStatement(searchQuery);
+			stmt =  currentCon.prepareStatement(searchQuery);
 
 			stmt.setString(1,username);
 			stmt.setString(2,password);	
@@ -52,12 +45,9 @@ import java.sql.*;
 				
 			 //if user exists set the isValid variable to true
 			 else if (more) 
-			 {
-				
+			 {	
 				int id = rs.getInt("user_id");
 				
-		
-			
 				bean.setUser_id(id);
 				bean.setValid(true);
 			 }

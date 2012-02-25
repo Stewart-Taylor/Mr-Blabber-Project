@@ -1,7 +1,6 @@
 * { padding: 0; margin: 0; }
 
 
-
 body {
 background-color: #D7DFE2;
 font: 10px  verdana, arial, helvetica;
@@ -75,7 +74,6 @@ text-shadow: 2px 3px 8px #CFCFCF;
 }
 
 
-
 #header {
  width: 900px;
  color: #333;
@@ -86,7 +84,6 @@ text-shadow: 2px 3px 8px #CFCFCF;
 box-shadow:6px 4px 18px #808080;
  background-color:#d7d18f;
 }
-
 
 
 #content { 
@@ -101,7 +98,6 @@ height: 100%;
 min-height: 100%; 
 
 }
-
 
 
 #footer { 
@@ -119,26 +115,19 @@ box-shadow:6px 4px 18px #808080;
 
 /*----------------------Logo Box-------------------------*/
 #logobox{
-
 width:auto;
 height:auto;
 margin:1px;
-
 float:left;
-
-
 }
 
 
 /*----------------------Login Box-------------------------*/
 #loginbox{
-
 width:auto;
 height:100%;
-
 margin:4px;
 float:right;
-
 }
 
 #loginbox_item{
@@ -148,16 +137,12 @@ float:left;
 font-weight:bold;
 font-size:12px;
 text-shadow:6px 4px 48px #808080;
-
-
-
 }
 
 
 #loginbox_button{
 margin:2px;
 padding:30px 0px 10px 380px;
-
 }
 
 
@@ -165,7 +150,6 @@ padding:30px 0px 10px 380px;
 
 /*----------------------Recent Message Box-------------------------*/
 #recentmsgbox{
-
 width:430px;
 height: 100%; 
 margin:20px 8px 40px 20px;
@@ -174,34 +158,26 @@ background-color: #FFC;
 box-shadow:6px 4px 18px #808080;
 border-style:solid;
 border-width:1px;
-
 }
 
 #middle_content{
 width:400px;
-    margin-left: auto;
-    margin-right: auto;
-
-
+margin-left: auto;
+margin-right: auto;
 }
 
 #left_content{
-
 width:auto;
 height: 100%; 
-
 float:left;
 padding:0px;
-
 }
+
 #right_content{
 float:right;
-
 width:auto;
 height: 100%; 
 padding:30px;
-
-
 }
 
 
@@ -211,13 +187,11 @@ position:relative;
 width:400px;
 height:200px;
 margin:10px;
-
 background:url(/stewarttaylor/Images/boxBackground.png) ;
 border-style:solid;
 border-width:1px;
-box-shadow:6px 4px 18px #808080;
 background-color:#ccffff;
-
+box-shadow:6px 4px 18px #808080;
 border-radius:5px;
 -moz-border-radius:5px;
 }
@@ -225,15 +199,12 @@ border-radius:5px;
 
 #msgProfile
 {
-
 float:left;
-
 }
 
 #msgDelete
 {
 float:right;
-
 }
 
 
@@ -245,7 +216,6 @@ padding:1px;
 font-size:18px;
 font-weight:bold;
 color:#cccc99;
-
 }
 
 #msgUser a
@@ -255,32 +225,24 @@ text-shadow:1px 1px 5px #808080;
 
 #msgTime
 {
-
 font-size:11px;
 font-weight:bold;
 text-shadow:1px 1px 11px #808080;
-
 }
 
 #msgImage{
 margin:1px;
-
-
 border-style:solid;
 border-width:1px;
 box-shadow:6px 4px 18px #808080;
-
 }
 
 #msgImage img{
 width:78px;
 height:78px;
-
-
 }
 
 #msgText{
-
 width:270px;
 height:150px;
 margin:4px;
@@ -288,14 +250,12 @@ padding:4px;
 float:right;
 color: #000000;
 background-color:#ffffcc;
-
 box-shadow:1px 1px 8px #808080;
 background:url(/stewarttaylor/Images/boxText.png);
 font-size:14px;
 word-wrap:break-word;
 border-style:solid;
 border-width:1px;
-
 border-radius:5px;
 -moz-border-radius:5px;
 }
@@ -305,10 +265,8 @@ border-radius:5px;
 
 /*----------------------Sign Up Box-------------------------*/
 #signup_box{
-
 border-radius:5px;
 -moz-border-radius:5px;
-
 width:250px;
 height:auto;
 margin:10px;
@@ -318,37 +276,35 @@ overflow:hidden;
 border:2px solid;
 text-shadow: 2px 3px 8px #CFCFCF;
 }
+
 #signup_item{
 margin:4px;
 padding:8px;
 font-size:15px;
 font-weight:bold;
-
 }
 
 
 
 .tb3 {
-	border: 1px dashed #D1C7AC;
-	width: 230px;
-	
+border: 1px dashed #D1C7AC;
+width: 230px;	
 }
 
 .tb2 {
-	border: 1px dashed #D1C7AC;
-	width: 100px;
-	
+border: 1px dashed #D1C7AC;
+width: 100px;	
 }
 
 
 
 /*------------------- avatar images ---------------*/
 .avtbig {
-	border: 1px dashed #D1C7AC;
-	width: 200px;
-	height:200px;
-	box-shadow:6px 4px 18px #808080;
-	float:right;
+border: 1px dashed #D1C7AC;
+width: 200px;
+height:200px;
+box-shadow:6px 4px 18px #808080;
+float:right;
 }
 
 
@@ -438,15 +394,10 @@ float:left;
 #mainnewsbox
 {
 margin:12px 12px 28px -50px;
-
 }
 
 #messageBox
 {
-
-
-
-
 width:300px;
 height:300px;
 padding:15px;
@@ -455,13 +406,9 @@ margin:4px;
 
 #createMessageBox
 {
-
-
-
 width:auto;
 padding:10px;
 margin: 20px 0px 0px 0px;
-
 }
 
 
@@ -469,10 +416,8 @@ margin: 20px 0px 0px 0px;
 
 #messageWriteBox
 {
-
 border-radius:15px;
 -moz-border-radius:15px;
-
 width:300px;
 padding:8px;
 color: #000000;
@@ -489,8 +434,6 @@ box-shadow:6px 4px 18px #808080;
 	margin:2px;
 	resize:none;
 }
-
-
 
 
 
@@ -517,21 +460,14 @@ border-radius:10px;
 
 #profileBox
 {
-
-
-
 padding:10px;
-
-
 }
 
 #profileStats
 {
 position:relative;
-
 padding:10px;
 margin:20px;
-
 }
 
 #profileFriendsBox
@@ -539,7 +475,6 @@ margin:20px;
 height:auto;
 width:100%;
 padding:10px;
-
 }
 
 #profileFriend

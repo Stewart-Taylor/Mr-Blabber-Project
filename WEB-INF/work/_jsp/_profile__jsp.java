@@ -296,7 +296,7 @@ try
     com.caucho.jsp.JavaPage.addDepend(_caucho_depends, depend);
     depend = new com.caucho.vfs.Depend(appDir.lookup("parts/messageBox.jsp"), 4695996236894547340L, false);
     com.caucho.jsp.JavaPage.addDepend(_caucho_depends, depend);
-    depend = new com.caucho.vfs.Depend(appDir.lookup("parts/messagesDisplay.jsp"), -6288430149944726872L, false);
+    depend = new com.caucho.vfs.Depend(appDir.lookup("parts/messagesDisplay.jsp"), 3651959889291330025L, false);
     com.caucho.jsp.JavaPage.addDepend(_caucho_depends, depend);
   }
 
@@ -333,7 +333,7 @@ try
   static {
     _jsp_string24 = "\"><img src=\"/stewarttaylor/Images/Delete.png\" alt=\"Delete\" /> </a>\r\n				</div>\r\n				 ".toCharArray();
     _jsp_string27 = "</p>\r\n			   </div>\r\n	\r\n		   </div>\r\n		 \r\n		   	<div id=\"msgText\">\r\n		   <p>\r\n		   ".toCharArray();
-    _jsp_string25 = "\r\n				\r\n				</div>\r\n	   \r\n	   \r\n	    <div id=\"msgProfile\">\r\n					<div id=\"msgImage\">\r\n					<img src=\"".toCharArray();
+    _jsp_string25 = "\r\n\r\n				</div>\r\n	   \r\n	   \r\n	    <div id=\"msgProfile\">\r\n					<div id=\"msgImage\">\r\n					<img src=\"".toCharArray();
     _jsp_string5 = " </h2>\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	<img class=\"avtbig\" src=\"".toCharArray();
     _jsp_string13 = "\r\n	\r\n					<div id=\"profileFriendsBox\" >\r\n	\r\n	\r\n	\r\n	\r\n\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	<h3> Follows</h3>\r\n	\r\n".toCharArray();
     _jsp_string15 = "</a>\r\n			</div>\r\n		   \r\n			".toCharArray();

@@ -177,7 +177,7 @@ try
     com.caucho.jsp.JavaPage.addDepend(_caucho_depends, depend);
     depend = new com.caucho.vfs.Depend(appDir.lookup("parts/messageBox.jsp"), 4695996236894547340L, false);
     com.caucho.jsp.JavaPage.addDepend(_caucho_depends, depend);
-    depend = new com.caucho.vfs.Depend(appDir.lookup("parts/messagesDisplay.jsp"), -6288430149944726872L, false);
+    depend = new com.caucho.vfs.Depend(appDir.lookup("parts/messagesDisplay.jsp"), 3651959889291330025L, false);
     com.caucho.jsp.JavaPage.addDepend(_caucho_depends, depend);
   }
 
@@ -199,7 +199,7 @@ try
   static {
     _jsp_string9 = "\"><img src=\"/stewarttaylor/Images/Delete.png\" alt=\"Delete\" /> </a>\r\n				</div>\r\n				 ".toCharArray();
     _jsp_string12 = "</p>\r\n			   </div>\r\n	\r\n		   </div>\r\n		 \r\n		   	<div id=\"msgText\">\r\n		   <p>\r\n		   ".toCharArray();
-    _jsp_string10 = "\r\n				\r\n				</div>\r\n	   \r\n	   \r\n	    <div id=\"msgProfile\">\r\n					<div id=\"msgImage\">\r\n					<img src=\"".toCharArray();
+    _jsp_string10 = "\r\n\r\n				</div>\r\n	   \r\n	   \r\n	    <div id=\"msgProfile\">\r\n					<div id=\"msgImage\">\r\n					<img src=\"".toCharArray();
     _jsp_string0 = "\r\n\r\n	\r\n\r\n	\r\n	\r\n	\r\n	\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<!DOCTYPE html>\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n\r\n<head>\r\n\r\n	<meta charset=\"utf-8\" />\r\n\r\n	<!--[if IE]><script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script><![endif]-->\r\n\r\n	<title> </title>\r\n\r\n	<meta name=\"keywords\" content=\"\" />\r\n\r\n	<meta name=\"description\" content=\"\" />\r\n\r\n	<link rel=\"stylesheet\" href=\"/stewarttaylor/style.css\" type=\"text/css\" media=\"screen, projection\" />\r\n\r\n</head>\r\n\r\n\r\n\r\n<body>\r\n\r\n\r\n\r\n\r\n\r\n\r\n<div id=\"wrapper\">\r\n	\r\n	\r\n	\r\n	\r\n".toCharArray();
     _jsp_string8 = "\r\n				<div id=\"msgDelete\">\r\n					<a href=\"/stewarttaylor/deletemessage/".toCharArray();
     _jsp_string11 = "\" alt=\"Avatar\" width=\"80\" height=\"80\"/>\r\n			   </div>\r\n			   \r\n			   \r\n							 <div id=\"msgTime\">\r\n				<p>".toCharArray();

@@ -11,7 +11,6 @@ package uk.ac.dundee.computing.stewarttaylor;
 	  private boolean[] canDelete;
 	
 	
-	
 	 public boolean[] getCanDelete() 
 	  {
          return canDelete;
@@ -24,7 +23,7 @@ package uk.ac.dundee.computing.stewarttaylor;
 	
 	
 	
-		 public String[] getImage() 
+	 public String[] getImage() 
 	  {
          return image;
 	  }
@@ -33,7 +32,6 @@ package uk.ac.dundee.computing.stewarttaylor;
 	  {
          image = imageT;
 	  }
-	
 	
 	
 	 public String[] getUsername() 
@@ -76,6 +74,4 @@ package uk.ac.dundee.computing.stewarttaylor;
          date = dateT;
 	  }
 	
- 
-  
 }

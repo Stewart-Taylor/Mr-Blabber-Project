@@ -12,15 +12,13 @@ import javax.servlet.RequestDispatcher;
 public class Logout extends HttpServlet
  {
 
-
 		public void doGet(HttpServletRequest req, HttpServletResponse res)   throws ServletException, java.io.IOException
 		 {
 				
-				HttpSession session = req.getSession(true);	 
-			    session.invalidate();
+			HttpSession session = req.getSession(true);	 
+			session.invalidate();
 							
-				res.sendRedirect("/stewarttaylor/");
+			res.sendRedirect("/stewarttaylor/");
 		 }
 	   
-   
 }

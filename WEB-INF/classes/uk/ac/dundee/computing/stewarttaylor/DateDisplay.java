@@ -7,39 +7,30 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import javax.servlet.RequestDispatcher;
-
 import java.awt.*;
 import java.io.*;
 import java.util.*;
 import java.text.*;
 import java.sql.*;
-
 import java.util.StringTokenizer; 
 
 public class DateDisplay
 {
 
-     
-	 
-	 	public static String formatDate(String date)
-		{
-			String output ;
+	public static String formatDate(String date)
+	{
+		String output ;
 		
-			date = date.substring(0,10);
+		date = date.substring(0,10);
 		
-			StringTokenizer st = new StringTokenizer( date, "-") ;
+		StringTokenizer st = new StringTokenizer( date, "-") ;
 		
-			String year =  st.nextToken(); 
-			String month = st.nextToken();
-			String day = st.nextToken();
+		String year =  st.nextToken(); 
+		String month = st.nextToken();
+		String day = st.nextToken();
 		
-			output = day + "/" + month + "/" + year ;
-			
-			
+		output = day + "/" + month + "/" + year ;
 		
 		return output;
-		}
-	 
-	 
-	 
+	}
 }

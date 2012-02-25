@@ -144,7 +144,7 @@ try
     com.caucho.vfs.Depend depend;
     depend = new com.caucho.vfs.Depend(appDir.lookup("index.jsp"), -2406850605476166725L, false);
     com.caucho.jsp.JavaPage.addDepend(_caucho_depends, depend);
-    depend = new com.caucho.vfs.Depend(appDir.lookup("parts/messagesDisplay.jsp"), -6288430149944726872L, false);
+    depend = new com.caucho.vfs.Depend(appDir.lookup("parts/messagesDisplay.jsp"), 3651959889291330025L, false);
     com.caucho.jsp.JavaPage.addDepend(_caucho_depends, depend);
     depend = new com.caucho.vfs.Depend(appDir.lookup("parts/Signup.jsp"), -7554159037385008641L, false);
     com.caucho.jsp.JavaPage.addDepend(_caucho_depends, depend);
@@ -165,7 +165,7 @@ try
   static {
     _jsp_string6 = "\"><img src=\"/stewarttaylor/Images/Delete.png\" alt=\"Delete\" /> </a>\r\n				</div>\r\n				 ".toCharArray();
     _jsp_string9 = "</p>\r\n			   </div>\r\n	\r\n		   </div>\r\n		 \r\n		   	<div id=\"msgText\">\r\n		   <p>\r\n		   ".toCharArray();
-    _jsp_string7 = "\r\n				\r\n				</div>\r\n	   \r\n	   \r\n	    <div id=\"msgProfile\">\r\n					<div id=\"msgImage\">\r\n					<img src=\"".toCharArray();
+    _jsp_string7 = "\r\n\r\n				</div>\r\n	   \r\n	   \r\n	    <div id=\"msgProfile\">\r\n					<div id=\"msgImage\">\r\n					<img src=\"".toCharArray();
     _jsp_string5 = "\r\n				<div id=\"msgDelete\">\r\n					<a href=\"/stewarttaylor/deletemessage/".toCharArray();
     _jsp_string8 = "\" alt=\"Avatar\" width=\"80\" height=\"80\"/>\r\n			   </div>\r\n			   \r\n			   \r\n							 <div id=\"msgTime\">\r\n				<p>".toCharArray();
     _jsp_string0 = "\r\n\r\n\r\n<!DOCTYPE html>\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n\r\n	<head>\r\n		<meta charset=\"utf-8\" />\r\n		<!--[if IE]><script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script><![endif]-->\r\n		<title> </title>\r\n		<meta name=\"keywords\" content=\"\" />\r\n		<meta name=\"description\" content=\"\" />\r\n		<link rel=\"stylesheet\" href=\"/stewarttaylor/style.css\" type=\"text/css\" media=\"screen, projection\" />\r\n\r\n		<script language=\"javascript\" src=\"md5.js\"></script>\r\n		\r\n	</head>\r\n\r\n<body>\r\n\r\n	<div id=\"wrapper\">\r\n\r\n\r\n\r\n\r\n		<div id=\"header\">\r\n\r\n\r\n<script language=\"javascript\">\r\nfunction passResponse()\r\n {\r\ndocument.hform.un.value = document.login.un.value;\r\ndocument.hform.pw.value = MD5(document.login.pw.value);\r\ndocument.login.pw.value = \"\";\r\ndocument.hform.submit();\r\n\r\n\r\n}\r\n\r\n</script>\r\n		\r\n		\r\n			<div id = \"logobox\">\r\n				<img src=\"Images/Logo.png\" alt=\"Logo\" />\r\n			</div>\r\n\r\n				<div id=\"loginbox\">		\r\n				\r\n							<form name=\"hform\" action=\"/stewarttaylor/login/\" method=\"post\" >\r\n<input type=\"hidden\" name=\"un\">\r\n<input type=\"hidden\" name=\"pw\">\r\n			</form>\r\n				\r\n				\r\n					<form name=\"login\" method=\"post\" >\r\n						\r\n						<div id=\"loginbox_item\" >\r\n							Username <input type=\"text\" name=\"un\" />\r\n						</div>\r\n						\r\n						<div id=\"loginbox_item\" >\r\n							Password <input type=\"password\" name=\"pw\" />\r\n						</div>\r\n						\r\n						<div id=\"loginbox_button\">\r\n							<input onClick=\"passResponse(); return false;\" type=\"submit\"   class=\"btn2\" value=\"Login\" />\r\n						</div>\r\n						\r\n					</form>\r\n				</div>\r\n\r\n		</div>\r\n\r\n\r\n		<div id=\"content\">\r\n\r\n				\r\n		<div id=\"left_content\">\r\n		\r\n		<div id=\"recentmsgbox\">\r\n		\r\n					<h2>Recent Blab </h2>\r\n\r\n			  \r\n				\r\n					".toCharArray();

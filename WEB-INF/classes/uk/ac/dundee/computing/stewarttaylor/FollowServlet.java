@@ -7,103 +7,86 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import javax.servlet.RequestDispatcher;
-
 import java.text.*;
 import java.util.*;
 import java.sql.*;
 
 
 public class FollowServlet extends HttpServlet
- {
+{
 
-      static Connection currentCon = null;
-      static ResultSet rs = null;  
+    static Connection currentCon = null;
+    static ResultSet rs = null;  
+	Statement stmt = null; 
 
-	  Statement stmt = null; 
-
-public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, java.io.IOException
- {
-					HttpSession session = req.getSession(true);  
-					 if(null == session.getAttribute("userBean"))
-					 {  
-						res.sendRedirect("/stewarttaylor/index.jsp");
-					 }
+	public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, java.io.IOException
+	{
+		HttpSession session = req.getSession(true);  
+		if(null == session.getAttribute("userBean"))
+		{  
+			res.sendRedirect("/stewarttaylor/index.jsp");
+		}
 					   
-					String profileName = req.getRequestURI();
+		String profileName = req.getRequestURI();
  
-					  // Cut off afeter FOLLOW/sdsd
-					  if( profileName.length() > 22)
-					  {
-							profileName =  profileName.substring(22);
+		 // Cut off afeter FOLLOW/sdsd
+		if( profileName.length() > 22)
+		{
+			profileName =  profileName.substring(22);
 					   
 					   
-				//Extract ID
-			  	UserBean userBean = (UserBean)session.getAttribute("userBean");
-				  try
-				  {
-								int id = userBean.getUser_id();
-								int fID = getID(profileName);
+			//Extract ID
+			UserBean userBean = (UserBean)session.getAttribute("userBean");
+			try
+			{
+				int id = userBean.getUser_id();
+				int fID = getID(profileName);
 									
-									if( ( fID != -1) && ( fID != id))
-									{
-										addFollow( fID, id );
-										res.sendRedirect("/stewarttaylor/profile/" + profileName);										
-									}
-					}
-					catch(Exception e)
-					{
+				if( ( fID != -1) && ( fID != id))
+				{
+					addFollow( fID, id );
+					res.sendRedirect("/stewarttaylor/profile/" + profileName);										
+				}
+			}
+			catch(Exception e)
+			{
 					
-					}
-					}
-	   
-		 res.sendRedirect("/stewarttaylor/newsfeed");
-}
+			}
+		}
+		res.sendRedirect("/stewarttaylor/newsfeed");
+	}
 					   
 
-		
-		
-   
-   
    private int getID(String name)
    {
-   
 		int id= -1;
    
-   
-            String searchQuery =
-               "select * from user where username='" + name + "'" ;
+        String searchQuery = "select * from user where username='" + name + "'" ;
                   
-
-
-
-      try 
-      {
-         //connect to DB 
-         currentCon = ConnectionManager.getConnection();
-         stmt=currentCon.createStatement();
-         rs = stmt.executeQuery(searchQuery);	        
-         boolean more = rs.next();
+		try 
+		{
+			//connect to DB 
+			currentCon = ConnectionManager.getConnection();
+			stmt=currentCon.createStatement();
+			rs = stmt.executeQuery(searchQuery);	        
+			boolean more = rs.next();
 	       
-         // if user does not exist set the isValid variable to false
-         if (!more) 
-         {
-            System.out.println("User does not exist");
-             id = -1;
-         } 
+			// if user does not exist set the isValid variable to false
+			if (!more) 
+			{
+				System.out.println("User does not exist");
+				id = -1;
+			} 
 	        
-         //if user exists set the isValid variable to true
-         else if (more) 
-         {
-             id =  rs.getInt("user_id");
-            
-	     	
-           
-         }
+			//if user exists set the isValid variable to true
+			else if (more) 
+			{
+				id =  rs.getInt("user_id");
+			}
       } 
-
       catch (Exception ex) 
       {
-         System.out.println("Log In failed: An Exception has occurred! " + ex);
+        System.out.println("Log In failed: An Exception has occurred! " + ex);
       } 
 	    
       //some exception handling
@@ -133,38 +116,33 @@ public void doGet(HttpServletRequest req, HttpServletResponse res) throws Servle
          }
       }				  
    
-   return id;
+	return id;
    
    }
    
    
-   
-   
-   
-   
-   
-		   private void addFollow(int id_ToFollow , int id_follower)
-		   {
+ 
+	private void addFollow(int id_ToFollow , int id_follower)
+	{
 
-					String query = "  INSERT INTO follow (user_id, followed_id )VALUES ('" + id_ToFollow + "',' " + id_follower + " ') ";
+		String query = "  INSERT INTO follow (user_id, followed_id )VALUES ('" + id_ToFollow + "',' " + id_follower + " ') ";
 
-			  try 
-			  {
+		try 
+		{
 				
-				 currentCon = ConnectionManager.getConnection();
-				 stmt=currentCon.createStatement();
+			currentCon = ConnectionManager.getConnection();
+			stmt=currentCon.createStatement();
 			   
-				stmt.executeUpdate(query);	        
+			stmt.executeUpdate(query);	        
 				 
-			  } 
-
-			  catch (Exception ex) 
-			  {
-				 System.out.println("NO FOLLOW MADE! :  " + ex);
-			  } 
+		} 
+		catch (Exception ex) 
+		{
+			System.out.println("NO FOLLOW MADE! :  " + ex);
+		} 
 
 			  
-			finally 
+		finally 
 			  {
 				 if (rs != null)	{
 					try {
@@ -189,10 +167,6 @@ public void doGet(HttpServletRequest req, HttpServletResponse res) throws Servle
 					currentCon = null;
 				 }
 			  }
-		   
-
-		   }
+	}
 	
-	
-
 }

@@ -7,7 +7,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import javax.servlet.RequestDispatcher;
-
 import java.text.*;
 import java.util.*;
 import java.sql.*;
@@ -15,97 +14,85 @@ import java.math.*;
 import java.security.*;
 
 public class SignupServlet extends HttpServlet
- {
+{
 
-       Connection currentCon = null;
-       ResultSet rs = null;  
-	   PreparedStatement stmt = null; 
+    Connection currentCon = null;
+    ResultSet rs = null;  
+	PreparedStatement stmt = null; 
 	   
-	   boolean accountCreated = false;
+	boolean accountCreated = false;
 
 	public void doGet(HttpServletRequest req, HttpServletResponse res)  throws ServletException, java.io.IOException
-	 {
-			res.sendRedirect("/stewarttaylor/signup.jsp");
-	 }
+	{
+		res.sendRedirect("/stewarttaylor/signup.jsp");
+	}
 	   
-	   
-	   
-	   
-	   
+	     
 	public void doPost(HttpServletRequest req, HttpServletResponse res)throws java.io.IOException, ServletException
 	{
 		   
-		  String username = req.getParameter("username");
-		  String password = req.getParameter("password");
-		  String password2 = req.getParameter("password2");
+		String username = req.getParameter("username");
+		String password = req.getParameter("password");
+		String password2 = req.getParameter("password2");
 		   
-		   username.trim();
+		username.trim();
 		   
-		   if(nameValid(username) == false)
-		   {
-				res.sendRedirect("/stewarttaylor/signup.jsp?attempt=3");
-		   }
+		if(nameValid(username) == false)
+		{
+			res.sendRedirect("/stewarttaylor/signup.jsp?attempt=3");
+		}
 		   
 		   
 		   
-		  if( password.equals(password2)) // Passwords verified
-		  {
-				username = username.trim();
+		if( password.equals(password2)) // Passwords verified
+		{
+			username = username.trim();
+			password = encryptPassword(password);
 				
-				password = encryptPassword(password);
-				
-				
-				
-				createAccount(username ,password);
+			createAccount(username ,password);
 			  
-				  if(accountCreated == true)
-				  {
-							//Log User in after account created 
-							 UserBean user = new UserBean();
-							 user.setUserName(username);
-							 user.setPassword(password);
+			if(accountCreated == true)
+			{
+				//Log User in after account created 
+				UserBean user = new UserBean();
+				user.setUserName(username);
+				user.setPassword(password);
 
-							 user = UserDAO.login(user);
+				user = UserDAO.login(user);
 					  
 					  
-					   if (user.isValid())
-					 {
-						   
-						  HttpSession session = req.getSession(true);	    
-						  session.setAttribute("userBean",user); 
+				if (user.isValid())
+				{	   
+					HttpSession session = req.getSession(true);	    
+					session.setAttribute("userBean",user); 
 						  
-						  res.sendRedirect("/stewarttaylor/profile"); //logged-in page    
-					 }	
+					res.sendRedirect("/stewarttaylor/profile"); //logged-in page    
+				}	
 					  
-
-					}
-					else
-					{
-						res.sendRedirect("/stewarttaylor/signup.jsp?attempt=3");
-					}
-		  }
-		  else
-		  {
+			}
+			else
+			{
+				res.sendRedirect("/stewarttaylor/signup.jsp?attempt=3");
+			}
+		}
+		else
+		{
 			//Passwords don't match!
-			 res.sendRedirect("/stewarttaylor/signup.jsp?attempt=2");
-		  }
+			res.sendRedirect("/stewarttaylor/signup.jsp?attempt=2");
+		}
 			
-		  res.sendRedirect("/stewarttaylor/newsfeed");   
+		res.sendRedirect("/stewarttaylor/newsfeed");   
 	}
 	
 	
 
-		private void createAccount(String username , String password)
-		{
+	private void createAccount(String username , String password)
+	{
 			
+		String query = "  INSERT INTO user (username, password )VALUES (?,?) ";
 		
-		
-			String query = "  INSERT INTO user (username, password )VALUES (?,?) ";
-		
-		
-		
-		  try 
-		  {
+		try 
+		{
 			 //connect to DB 
 			currentCon = ConnectionManager.getConnection();
 
@@ -115,63 +102,55 @@ public class SignupServlet extends HttpServlet
 			stmt.setString(1,username);
 			stmt.setString(2,password);	
 	
-			
 			stmt.executeUpdate();	
 			currentCon.commit();
 			
-			
-			
 			accountCreated = true;
 		  } 
-		  catch (Exception ex) 
-		  {
+		catch (Exception ex) 
+		{
 			 System.out.println("ACCOUNT CREATION ERROR :  " + ex);
-		  } 
+		} 
+	}
+		
+
+	private boolean nameValid(String name)
+	{	
+		if (name.length() < 3)
+		{
+			return false;
+		}
+		else if (isValidChar(name) == false)
+		{
+			return false;
+		}
+		else if (name.length() > 9)
+		{
+			return false;
 		}
 		
+		return true;
+	}
 		
 		
-		private boolean nameValid(String name)
+	public String encryptPassword(String s)
+	{
+		
+		try
 		{
-			
-			if (name.length() < 3)
-			{
-				return false;
-			}
-			else if (isValidChar(name) == false)
-			{
-				return false;
-			}
-			else if (name.length() > 9)
-			{
-				return false;
-			}
-		
-			return true;
-		}
-		
-		
-		
-		
-		public String encryptPassword(String s)
-		{
-		
-			try
-			{
-			   MessageDigest m=MessageDigest.getInstance("MD5");
-			   m.update(s.getBytes(),0,s.length());
+			MessageDigest m=MessageDigest.getInstance("MD5");
+			m.update(s.getBytes(),0,s.length());
 			  
-			   return  (new BigInteger(1,m.digest()).toString(16));
-			}
-			catch(Exception e)
-			{
-				//Wont fail Required for algorithm not found exception
-				return s;
-			}
+			return  (new BigInteger(1,m.digest()).toString(16));
 		}
+		catch(Exception e)
+		{
+			//Wont fail Required for algorithm not found exception
+			return s;
+		}
+	}
 		
-		
-		
+
 	public boolean isValidChar(CharSequence seq)
 	{
 		int len = seq.length();
@@ -189,8 +168,6 @@ public class SignupServlet extends HttpServlet
     }
     // All seen chars were valid, succeed
     return true;
-}
-		
-		
-	
+	}
+
 }
