@@ -1,10 +1,10 @@
 SMAP
-_newsfeed__jsp.java
+_allnews__jsp.java
 JSP
 *S JSP
 *F
-+ 1 newsfeed.jsp
-newsfeed.jsp
++ 1 allnews.jsp
+allnews.jsp
 + 2 header.jsp
 parts/header.jsp
 + 3 messagesDisplay.jsp

@@ -47,6 +47,10 @@ margin:0px;
 line-height:15px;
 }
 
+a img{
+border:0;
+}
+
 p.white{
 color:#FFFFFF;
 }
@@ -251,7 +255,7 @@ text-shadow:1px 1px 5px #808080;
 
 #msgTime
 {
-float:bottom;
+
 font-size:11px;
 font-weight:bold;
 text-shadow:1px 1px 11px #808080;
@@ -259,7 +263,6 @@ text-shadow:1px 1px 11px #808080;
 }
 
 #msgImage{
-float:right;
 margin:1px;
 
 
@@ -270,15 +273,15 @@ box-shadow:6px 4px 18px #808080;
 }
 
 #msgImage img{
-width:80px;
-height:80px;
+width:78px;
+height:78px;
 
 
 }
 
 #msgText{
 
-width:290px;
+width:270px;
 height:150px;
 margin:4px;
 padding:4px;
@@ -491,6 +494,8 @@ box-shadow:6px 4px 18px #808080;
 
 
 
+
+
 /*----------------------Profile -------------------------*/
 #profileContent
 {
@@ -499,7 +504,7 @@ width:380px;
 height:auto;
 border-style:solid;
 border-width:1px;
-margin: 60px 10px 30px -190px;
+margin: 60px 10px 30px -210px;
 padding:8px;
 font-size:16px;
 font-weight:bold;

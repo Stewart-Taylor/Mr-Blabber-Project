@@ -28,23 +28,14 @@
 
 	
 		<div class="hbuttons">
-			<a href="/stewarttaylor/profile/
-			
-			<%
-				uk.ac.dundee.computing.stewarttaylor.UserBean uBeanS = (uk.ac.dundee.computing.stewarttaylor.UserBean)session.getAttribute("userBean");
-				String sName = uBeanS.getUsername();
-				out.print(sName);
-			%>
-			
-			"> 
-			
-			<% 
-			
-			  
-
-			
-			
-			out.print(sName);    %> </a> 
+		
+		<%
+						uk.ac.dundee.computing.stewarttaylor.UserBean uBean2 = (uk.ac.dundee.computing.stewarttaylor.UserBean)session.getAttribute("userBean");
+				String sName = uBean2.getUsername();
+		
+		%>
+		
+			<a href="/stewarttaylor/profile/<% out.print(sName); %>"><% out.print(sName);    %> </a> 
 
 			<a href="/stewarttaylor/newsfeed">Home </a> 
 

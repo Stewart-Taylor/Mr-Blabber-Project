@@ -95,11 +95,11 @@
 	
 	
 	 <div id="mainnewsbox">
-	        <h2>News Feed - <i>People You Follow </i></h2>
+	        <h2>News Feed - <i>Everyone's Blabs</i></h2>
 		
 			
-			<form name="login" action="/stewarttaylor/allnews" >
-			<input type="submit"   class="btn2" value="Show All Blabs" />
+			<form name="login" action="/stewarttaylor/newsfeed" >
+			<input type="submit"   class="btn2" value="Show Only People You Follow" />
 			</form>
 
 	   

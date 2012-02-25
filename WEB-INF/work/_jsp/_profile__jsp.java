@@ -45,27 +45,23 @@ public class _profile__jsp extends com.caucho.jsp.JavaPage{
       }
       out.write(_jsp_string1, 0, _jsp_string1.length);
       
-				uk.ac.dundee.computing.stewarttaylor.UserBean uBeanS = (uk.ac.dundee.computing.stewarttaylor.UserBean)session.getAttribute("userBean");
-				String sName = uBeanS.getUsername();
-				out.print(sName);
-			
+						uk.ac.dundee.computing.stewarttaylor.UserBean uBean2 = (uk.ac.dundee.computing.stewarttaylor.UserBean)session.getAttribute("userBean");
+				String sName = uBean2.getUsername();
+		
+		
       out.write(_jsp_string2, 0, _jsp_string2.length);
-       
-			
-			  
-
-			
-			
-			out.print(sName);    
+       out.print(sName); 
       out.write(_jsp_string3, 0, _jsp_string3.length);
-        out.print(((uk.ac.dundee.computing.stewarttaylor.ProfileBean) pageContext.findAttribute("profileBean")).getUsername());
+       out.print(sName);    
       out.write(_jsp_string4, 0, _jsp_string4.length);
-        out.print(((uk.ac.dundee.computing.stewarttaylor.ProfileBean) pageContext.findAttribute("profileBean")).getImage());
+        out.print(((uk.ac.dundee.computing.stewarttaylor.ProfileBean) pageContext.findAttribute("profileBean")).getUsername());
       out.write(_jsp_string5, 0, _jsp_string5.length);
-        out.print(((uk.ac.dundee.computing.stewarttaylor.ProfileBean) pageContext.findAttribute("profileBean")).getJoindate());
+        out.print(((uk.ac.dundee.computing.stewarttaylor.ProfileBean) pageContext.findAttribute("profileBean")).getImage());
       out.write(_jsp_string6, 0, _jsp_string6.length);
-        out.print(((uk.ac.dundee.computing.stewarttaylor.ProfileBean) pageContext.findAttribute("profileBean")).getMessageCount());
+        out.print(((uk.ac.dundee.computing.stewarttaylor.ProfileBean) pageContext.findAttribute("profileBean")).getJoindate());
       out.write(_jsp_string7, 0, _jsp_string7.length);
+        out.print(((uk.ac.dundee.computing.stewarttaylor.ProfileBean) pageContext.findAttribute("profileBean")).getMessageCount());
+      out.write(_jsp_string8, 0, _jsp_string8.length);
       
 	
 	if( profileBean.getOwnProfile() == false)
@@ -74,9 +70,9 @@ public class _profile__jsp extends com.caucho.jsp.JavaPage{
 		{
 		
 		
-      out.write(_jsp_string8, 0, _jsp_string8.length);
-        out.print(((uk.ac.dundee.computing.stewarttaylor.ProfileBean) pageContext.findAttribute("profileBean")).getUsername());
       out.write(_jsp_string9, 0, _jsp_string9.length);
+        out.print(((uk.ac.dundee.computing.stewarttaylor.ProfileBean) pageContext.findAttribute("profileBean")).getUsername());
+      out.write(_jsp_string10, 0, _jsp_string10.length);
       
 	
 		}
@@ -84,9 +80,9 @@ public class _profile__jsp extends com.caucho.jsp.JavaPage{
 		{
 		
 				
-      out.write(_jsp_string10, 0, _jsp_string10.length);
-        out.print(((uk.ac.dundee.computing.stewarttaylor.ProfileBean) pageContext.findAttribute("profileBean")).getUsername());
       out.write(_jsp_string11, 0, _jsp_string11.length);
+        out.print(((uk.ac.dundee.computing.stewarttaylor.ProfileBean) pageContext.findAttribute("profileBean")).getUsername());
+      out.write(_jsp_string12, 0, _jsp_string12.length);
       
 		
 		
@@ -100,7 +96,7 @@ public class _profile__jsp extends com.caucho.jsp.JavaPage{
 	
 
 	
-      out.write(_jsp_string12, 0, _jsp_string12.length);
+      out.write(_jsp_string13, 0, _jsp_string13.length);
       
 
 	try 
@@ -115,9 +111,9 @@ public class _profile__jsp extends com.caucho.jsp.JavaPage{
 	 
 	 
 		 
-      out.write(_jsp_string13, 0, _jsp_string13.length);
-       out.println(follows[i]); 
       out.write(_jsp_string14, 0, _jsp_string14.length);
+       out.println(follows[i]); 
+      out.write(_jsp_string3, 0, _jsp_string3.length);
        out.println(follows[i]); 
       out.write(_jsp_string15, 0, _jsp_string15.length);
        
@@ -145,9 +141,9 @@ public class _profile__jsp extends com.caucho.jsp.JavaPage{
 	 
 	 
 		 
-      out.write(_jsp_string13, 0, _jsp_string13.length);
-       out.println(followers[i]); 
       out.write(_jsp_string14, 0, _jsp_string14.length);
+       out.println(followers[i]); 
+      out.write(_jsp_string3, 0, _jsp_string3.length);
        out.println(followers[i]); 
       out.write(_jsp_string15, 0, _jsp_string15.length);
        
@@ -187,7 +183,6 @@ public class _profile__jsp extends com.caucho.jsp.JavaPage{
       }
       out.write(_jsp_string20, 0, _jsp_string20.length);
       
-
 try 
 {
 
@@ -202,15 +197,11 @@ try
  
  for(int i = 0 ; i< names.length ; i++)
  {
- 
- 
- 
- 
- 
+
 	 
       out.write(_jsp_string21, 0, _jsp_string21.length);
        out.println(names[i]); 
-      out.write(_jsp_string14, 0, _jsp_string14.length);
+      out.write(_jsp_string3, 0, _jsp_string3.length);
        out.println(names[i]); 
       out.write(_jsp_string22, 0, _jsp_string22.length);
       
@@ -301,74 +292,74 @@ try
     com.caucho.vfs.Depend depend;
     depend = new com.caucho.vfs.Depend(appDir.lookup("profile.jsp"), 3910580962130683300L, false);
     com.caucho.jsp.JavaPage.addDepend(_caucho_depends, depend);
-    depend = new com.caucho.vfs.Depend(appDir.lookup("parts/header.jsp"), -3967840264272611628L, false);
+    depend = new com.caucho.vfs.Depend(appDir.lookup("parts/header.jsp"), 7818843393653806549L, false);
     com.caucho.jsp.JavaPage.addDepend(_caucho_depends, depend);
     depend = new com.caucho.vfs.Depend(appDir.lookup("parts/messageBox.jsp"), 4695996236894547340L, false);
     com.caucho.jsp.JavaPage.addDepend(_caucho_depends, depend);
-    depend = new com.caucho.vfs.Depend(appDir.lookup("parts/messagesDisplay.jsp"), -6427251902778164161L, false);
+    depend = new com.caucho.vfs.Depend(appDir.lookup("parts/messagesDisplay.jsp"), -6288430149944726872L, false);
     com.caucho.jsp.JavaPage.addDepend(_caucho_depends, depend);
   }
 
-  private final static char []_jsp_string27;
-  private final static char []_jsp_string2;
-  private final static char []_jsp_string4;
-  private final static char []_jsp_string12;
-  private final static char []_jsp_string15;
   private final static char []_jsp_string24;
+  private final static char []_jsp_string27;
   private final static char []_jsp_string25;
-  private final static char []_jsp_string29;
-  private final static char []_jsp_string6;
+  private final static char []_jsp_string5;
+  private final static char []_jsp_string13;
+  private final static char []_jsp_string15;
+  private final static char []_jsp_string19;
+  private final static char []_jsp_string7;
   private final static char []_jsp_string20;
+  private final static char []_jsp_string9;
+  private final static char []_jsp_string12;
+  private final static char []_jsp_string18;
+  private final static char []_jsp_string3;
+  private final static char []_jsp_string0;
+  private final static char []_jsp_string11;
+  private final static char []_jsp_string23;
+  private final static char []_jsp_string14;
+  private final static char []_jsp_string29;
+  private final static char []_jsp_string26;
+  private final static char []_jsp_string1;
+  private final static char []_jsp_string4;
+  private final static char []_jsp_string16;
+  private final static char []_jsp_string21;
+  private final static char []_jsp_string10;
+  private final static char []_jsp_string17;
+  private final static char []_jsp_string2;
+  private final static char []_jsp_string6;
+  private final static char []_jsp_string22;
   private final static char []_jsp_string28;
   private final static char []_jsp_string8;
-  private final static char []_jsp_string11;
-  private final static char []_jsp_string18;
-  private final static char []_jsp_string14;
-  private final static char []_jsp_string19;
-  private final static char []_jsp_string0;
-  private final static char []_jsp_string1;
-  private final static char []_jsp_string10;
-  private final static char []_jsp_string13;
-  private final static char []_jsp_string23;
-  private final static char []_jsp_string26;
-  private final static char []_jsp_string3;
-  private final static char []_jsp_string16;
-  private final static char []_jsp_string9;
-  private final static char []_jsp_string17;
-  private final static char []_jsp_string5;
-  private final static char []_jsp_string21;
-  private final static char []_jsp_string22;
-  private final static char []_jsp_string7;
   static {
-    _jsp_string27 = "</p>\r\n			   </div>\r\n		   \r\n		   \r\n		   </div>\r\n		   \r\n		   \r\n		   \r\n		   	<div id=\"msgText\">\r\n		   <p>\r\n		   ".toCharArray();
-    _jsp_string2 = "\r\n			\r\n			\"> \r\n			\r\n			".toCharArray();
-    _jsp_string4 = " </h2>\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	<img class=\"avtbig\" src=\"".toCharArray();
-    _jsp_string12 = "\r\n	\r\n					<div id=\"profileFriendsBox\" >\r\n	\r\n	\r\n	\r\n	\r\n\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	<h3> Follows</h3>\r\n	\r\n".toCharArray();
+    _jsp_string24 = "\"><img src=\"/stewarttaylor/Images/Delete.png\" alt=\"Delete\" /> </a>\r\n				</div>\r\n				 ".toCharArray();
+    _jsp_string27 = "</p>\r\n			   </div>\r\n	\r\n		   </div>\r\n		 \r\n		   	<div id=\"msgText\">\r\n		   <p>\r\n		   ".toCharArray();
+    _jsp_string25 = "\r\n				\r\n				</div>\r\n	   \r\n	   \r\n	    <div id=\"msgProfile\">\r\n					<div id=\"msgImage\">\r\n					<img src=\"".toCharArray();
+    _jsp_string5 = " </h2>\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	<img class=\"avtbig\" src=\"".toCharArray();
+    _jsp_string13 = "\r\n	\r\n					<div id=\"profileFriendsBox\" >\r\n	\r\n	\r\n	\r\n	\r\n\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	<h3> Follows</h3>\r\n	\r\n".toCharArray();
     _jsp_string15 = "</a>\r\n			</div>\r\n		   \r\n			".toCharArray();
-    _jsp_string24 = "\"><img src=\"/stewarttaylor/Images/Delete.png\" alt=\"Delete\" /> </a>\r\n				</div>\r\n				\r\n				\r\n				 ".toCharArray();
-    _jsp_string25 = "\r\n				\r\n				</div>\r\n	   \r\n	   \r\n	    <div id=\"msgProfile\">\r\n		\r\n		\r\n					<div id=\"msgImage\">\r\n					<img src=\"".toCharArray();
-    _jsp_string29 = " \r\n	\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	\r\n\r\n		   \r\n		   \r\n		   \r\n	\r\n	</div>\r\n     \r\n     \r\n        \r\n  \r\n    \r\n        \r\n        </div><!--end of middle content-->\r\n\r\n\r\n\r\n    \r\n            \r\n      \r\n\r\n\r\n    \r\n	 <div style=\"clear: both;\">\r\n	</div><!-- #content-->\r\n\r\n\r\n\r\n	<footer id=\"footer\">\r\n\r\n		<p>Created By Stewart Taylor</p>\r\n\r\n	</footer><!-- #footer -->\r\n\r\n\r\n\r\n</div><!-- #wrapper -->\r\n\r\n\r\n\r\n</body>\r\n\r\n</html>".toCharArray();
-    _jsp_string6 = " </p>\r\n	\r\n	</div>\r\n	\r\n	\r\n		<div id=\"profileStats\" >\r\n	<p>Blabs: ".toCharArray();
-    _jsp_string20 = "\r\n	\r\n	\r\n	   ".toCharArray();
-    _jsp_string28 = "\r\n		   </textarea></p>\r\n		   </div>\r\n		   \r\n	   \r\n		   \r\n		  \r\n		  \r\n		   \r\n		   \r\n\r\n		   \r\n		   \r\n		  \r\n		   \r\n		   \r\n		 \r\n		   \r\n	   </div>\r\n	   \r\n	 \r\n	 \r\n	 \r\n	 \r\n 		".toCharArray();
-    _jsp_string8 = "\r\n			<form name=\"login\" action=\"/stewarttaylor/follow/".toCharArray();
-    _jsp_string11 = "\" >\r\n	<input type=\"submit\"   class=\"btn2\" value=\"UnFollow\" />\r\n	</form>\r\n	".toCharArray();
+    _jsp_string19 = "	\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	 <div id=\"mainnewsbox\">\r\n	        <h2>Recent Posts</h2>\r\n       \r\n		    		".toCharArray();
+    _jsp_string7 = " </p>\r\n	\r\n	</div>\r\n	\r\n	\r\n		<div id=\"profileStats\" >\r\n	<p>Blabs: ".toCharArray();
+    _jsp_string20 = "\r\n	   ".toCharArray();
+    _jsp_string9 = "\r\n			<form name=\"login\" action=\"/stewarttaylor/follow/".toCharArray();
+    _jsp_string12 = "\" >\r\n	<input type=\"submit\"   class=\"btn2\" value=\"UnFollow\" />\r\n	</form>\r\n	".toCharArray();
     _jsp_string18 = "\r\n	\r\n	<h2><a href=\"/stewarttaylor/editprofile/\">Edit Profile</a></h2>\r\n	\r\n	\r\n	\r\n		   	\r\n	<script language = \"Javascript\">\r\nmaxL=140;\r\nvar bName = navigator.appName;\r\nfunction taLimit(taObj) {\r\n	if (taObj.value.length==maxL) return false;\r\n	return true;\r\n}\r\n\r\nfunction taCount(taObj,Cnt) { \r\n	objCnt=createObject(Cnt);\r\n	objVal=taObj.value;\r\n	if (objVal.length>maxL) objVal=objVal.substring(0,maxL);\r\n	if (objCnt) {\r\n		if(bName == \"Netscape\"){	\r\n			objCnt.textContent=maxL-objVal.length;}\r\n		else{objCnt.innerText=maxL-objVal.length;}\r\n	}\r\n	return true;\r\n}\r\nfunction createObject(objId) {\r\n	if (document.getElementById) return document.getElementById(objId);\r\n	else if (document.layers) return eval(\"document.\" + objId);\r\n	else if (document.all) return eval(\"document.all.\" + objId);\r\n	else return eval(\"document.\" + objId);\r\n}\r\n</script>\r\n	\r\n	\r\n	\r\n	\r\n	<div id=\"createMessageBox\">\r\n	 \r\n	\r\n	\r\n	\r\n	<div id=\"messageWriteBox\">\r\n	 <h2>What's on your mind?</h2>\r\n	<form name=\"login\" action=\"/stewarttaylor/post\" >\r\n	\r\n	<textarea onKeyPress=\"return taLimit(this)\" onKeyUp=\"return taCount(this,'myCounter')\" name=\"msg\" class =\"tb4\" cols=\"30\" rows=\"5\"></textarea>\r\n	<p><SPAN id=myCounter>140</SPAN></B> characters remaining</p>\r\n	<input type=\"submit\"   class=\"btn2\" value=\"Post\" />\r\n	</form>\r\n	\r\n	</div>\r\n	\r\n	</div>\r\n\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	\r\n\r\n		\r\n		".toCharArray();
-    _jsp_string14 = "\">".toCharArray();
-    _jsp_string19 = "	\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	 <div id=\"mainnewsbox\">\r\n	        <h2>Recent Posts</h2>\r\n       \r\n		    	\r\n		".toCharArray();
+    _jsp_string3 = "\">".toCharArray();
     _jsp_string0 = "\r\n\r\n\r\n<!DOCTYPE html>\r\n\r\n\r\n\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n\r\n<head>\r\n\r\n	<meta charset=\"utf-8\" />\r\n\r\n	<!--[if IE]><script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script><![endif]-->\r\n\r\n	<title> </title>\r\n\r\n	<meta name=\"keywords\" content=\"\" />\r\n\r\n	<meta name=\"description\" content=\"\" />\r\n\r\n	<link rel=\"stylesheet\" href=\"/stewarttaylor/style.css\" type=\"text/css\" media=\"screen, projection\" />\r\n\r\n</head>\r\n\r\n\r\n\r\n<body>\r\n\r\n\r\n\r\n\r\n\r\n\r\n<div id=\"wrapper\">\r\n	\r\n	\r\n	\r\n	\r\n\r\n		\r\n		\r\n			\r\n	".toCharArray();
-    _jsp_string1 = "\r\n\r\n	<div id=\"header\">\r\n    	\r\n		<div id = \"logobox\">\r\n			<a href=\"/stewarttaylor/newsfeed\" >\r\n			<img src=\"/stewarttaylor/Images/Logo.png\" alt=\"Logo\" />\r\n			</a>\r\n		</div>\r\n		\r\n		\r\n		\r\n		\r\n		<div id = \"searchbar\">\r\n				<form name=\"search\" action=\"/stewarttaylor/search/\" method=\"get\" >\r\n					 <input type=\"text\" name=\"search\" />\r\n					<input type=\"submit\"   class=\"btn2\" value=\"Search\" />\r\n				</form>\r\n		</div>\r\n		\r\n		\r\n		\r\n		\r\n				<div id = \"Profilebox\">\r\n\r\n	\r\n		<div class=\"hbuttons\">\r\n			<a href=\"/stewarttaylor/profile/\r\n			\r\n			".toCharArray();
-    _jsp_string10 = "\r\n			<form name=\"login\" action=\"/stewarttaylor/unfollow/".toCharArray();
-    _jsp_string13 = " \r\n			<div id=\"profileFriend\">\r\n				<a href=\"/stewarttaylor/profile/".toCharArray();
-    _jsp_string23 = "\r\n				\r\n				<div id=\"msgDelete\">\r\n					<a href=\"/stewarttaylor/deletemessage/".toCharArray();
-    _jsp_string26 = "\" alt=\"Avatar\" />\r\n			   </div>\r\n			   \r\n			   \r\n							 <div id=\"msgTime\">\r\n				<p>".toCharArray();
-    _jsp_string3 = " </a> \r\n\r\n			<a href=\"/stewarttaylor/newsfeed\">Home </a> \r\n\r\n			<a href=\"/stewarttaylor/Logout\">Logout </a> \r\n\r\n			</div>\r\n\r\n		</div>\r\n\r\n\r\n		</div>\r\n\r\n\r\n\r\n		\r\n		\r\n		\r\n		\r\n		\r\n\r\n \r\n    \r\n    \r\n	\r\n  \r\n    \r\n    <div id=\"content\">\r\n    \r\n	\r\n\r\n	<div id=\"profileContent\">\r\n	\r\n	\r\n	\r\n	<div id=\"profileBox\" >\r\n	\r\n	\r\n	\r\n\r\n	\r\n	\r\n	<h2> 	".toCharArray();
+    _jsp_string11 = "\r\n			<form name=\"login\" action=\"/stewarttaylor/unfollow/".toCharArray();
+    _jsp_string23 = "\r\n				<div id=\"msgDelete\">\r\n					<a href=\"/stewarttaylor/deletemessage/".toCharArray();
+    _jsp_string14 = " \r\n			<div id=\"profileFriend\">\r\n				<a href=\"/stewarttaylor/profile/".toCharArray();
+    _jsp_string29 = " \r\n		   \r\n		   \r\n		   \r\n	\r\n	</div>\r\n     \r\n     \r\n        \r\n  \r\n    \r\n        \r\n        </div><!--end of middle content-->\r\n\r\n\r\n\r\n    \r\n            \r\n      \r\n\r\n\r\n    \r\n	 <div style=\"clear: both;\">\r\n	</div><!-- #content-->\r\n\r\n\r\n\r\n	<footer id=\"footer\">\r\n\r\n		<p>Created By Stewart Taylor</p>\r\n\r\n	</footer><!-- #footer -->\r\n\r\n\r\n\r\n</div><!-- #wrapper -->\r\n\r\n\r\n\r\n</body>\r\n\r\n</html>".toCharArray();
+    _jsp_string26 = "\" alt=\"Avatar\" width=\"80\" height=\"80\"/>\r\n			   </div>\r\n			   \r\n			   \r\n							 <div id=\"msgTime\">\r\n				<p>".toCharArray();
+    _jsp_string1 = "\r\n\r\n	<div id=\"header\">\r\n    	\r\n		<div id = \"logobox\">\r\n			<a href=\"/stewarttaylor/newsfeed\" >\r\n			<img src=\"/stewarttaylor/Images/Logo.png\" alt=\"Logo\" />\r\n			</a>\r\n		</div>\r\n		\r\n		\r\n		\r\n		\r\n		<div id = \"searchbar\">\r\n				<form name=\"search\" action=\"/stewarttaylor/search/\" method=\"get\" >\r\n					 <input type=\"text\" name=\"search\" />\r\n					<input type=\"submit\"   class=\"btn2\" value=\"Search\" />\r\n				</form>\r\n		</div>\r\n		\r\n		\r\n		\r\n		\r\n				<div id = \"Profilebox\">\r\n\r\n	\r\n		<div class=\"hbuttons\">\r\n		\r\n		".toCharArray();
+    _jsp_string4 = " </a> \r\n\r\n			<a href=\"/stewarttaylor/newsfeed\">Home </a> \r\n\r\n			<a href=\"/stewarttaylor/Logout\">Logout </a> \r\n\r\n			</div>\r\n\r\n		</div>\r\n\r\n\r\n		</div>\r\n\r\n\r\n\r\n		\r\n		\r\n		\r\n		\r\n		\r\n\r\n \r\n    \r\n    \r\n	\r\n  \r\n    \r\n    <div id=\"content\">\r\n    \r\n	\r\n\r\n	<div id=\"profileContent\">\r\n	\r\n	\r\n	\r\n	<div id=\"profileBox\" >\r\n	\r\n	\r\n	\r\n\r\n	\r\n	\r\n	<h2> 	".toCharArray();
     _jsp_string16 = " \r\n\r\n\r\n		</div>\r\n		\r\n		\r\n		\r\n		\r\n		\r\n		\r\n							<div id=\"profileFriendsBox\" >\r\n	\r\n	<h3> Followers</h3>\r\n	\r\n	".toCharArray();
-    _jsp_string9 = "\" >\r\n	<input type=\"submit\"   class=\"btn2\" value=\"Follow\" />\r\n	</form>\r\n	".toCharArray();
+    _jsp_string21 = "\r\n	 <div id=\"msgbox\">\r\n	   \r\n	   \r\n	   	   		<div id=\"msgUser\">\r\n				<a href=\"/stewarttaylor/profile/".toCharArray();
+    _jsp_string10 = "\" >\r\n	<input type=\"submit\"   class=\"btn2\" value=\"Follow\" />\r\n	</form>\r\n	".toCharArray();
     _jsp_string17 = " \r\n	\r\n\r\n		</div>\r\n	\r\n	\r\n	\r\n	\r\n\r\n	\r\n	\r\n	\r\n\r\n	\r\n	</div>\r\n	\r\n	<div id=\"right_content\">\r\n	\r\n\r\n\r\n	".toCharArray();
-    _jsp_string5 = "\" alt=\"avatar\" />\r\n	\r\n\r\n	\r\n	\r\n	<p>Joined <br/>".toCharArray();
-    _jsp_string21 = "\r\n	 \r\n	\r\n	 <div id=\"msgbox\">\r\n	   \r\n	   \r\n	   	   		<div id=\"msgUser\">\r\n				<a href=\"/stewarttaylor/profile/".toCharArray();
-    _jsp_string22 = "</a>\r\n				\r\n\r\n				 ".toCharArray();
-    _jsp_string7 = " </p>\r\n	\r\n					\r\n\r\n	\r\n	</div>\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	".toCharArray();
+    _jsp_string2 = "\r\n		\r\n			<a href=\"/stewarttaylor/profile/".toCharArray();
+    _jsp_string6 = "\" alt=\"avatar\" />\r\n	\r\n\r\n	\r\n	\r\n	<p>Joined <br/>".toCharArray();
+    _jsp_string22 = "</a>\r\n				 ".toCharArray();
+    _jsp_string28 = "\r\n		   </p>\r\n		   </div>  \r\n	   \r\n	   </div>\r\n 		".toCharArray();
+    _jsp_string8 = " </p>\r\n	\r\n					\r\n\r\n	\r\n	</div>\r\n	\r\n	\r\n	\r\n	\r\n	\r\n	".toCharArray();
   }
 }
