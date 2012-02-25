@@ -24,17 +24,14 @@
 	<script language="javascript" src="md5.js"></script>
 	
 	
-	<script language="javascript">
-function passResponse()
- {
-document.hform.un.value = document.login.un.value;
-document.hform.pw.value = MD5(document.login.pw.value);
-document.login.pw.value = "";
-document.hform.submit();
-
-
-}
-
+<script language="javascript">
+	function passResponse()
+	 {
+	document.hform.un.value = document.login.un.value;
+	document.hform.pw.value = MD5(document.login.pw.value);
+	document.login.pw.value = "";
+	document.hform.submit();
+	}
 </script>
 	
 
